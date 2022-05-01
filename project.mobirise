@@ -3851,7 +3851,8 @@
               "text-align": "center"
             },
             ".mbr-section-title": {
-              "color": "#e6c63b"
+              "color": "#e6c63b",
+              "text-align": "center"
             }
           },
           "_name": "video2",
@@ -3882,7 +3883,8 @@
               "text-align": "center"
             },
             ".mbr-section-title": {
-              "color": "#fafafa"
+              "color": "#fafafa",
+              "text-align": "center"
             }
           },
           "_name": "video2",
