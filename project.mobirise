@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "OTTU Media",
-    "currentPage": "on-the-air-radio.html",
+    "currentPage": "home.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -77,10 +77,7 @@
     "spellingSwitch": true,
     "site_lang": "en",
     "PWA": {
-      "enabled": true,
-      "name": "",
-      "icon": "@PROJECT_PATH@/assets/images/the-new-ottu-media-logo-transparent-made-with-postermywall-512x512_1.png",
-      "themeColor": "#fafafa"
+      "enabled": false
     },
     "pwa-switcher": true,
     "publishChangesOnly": true
