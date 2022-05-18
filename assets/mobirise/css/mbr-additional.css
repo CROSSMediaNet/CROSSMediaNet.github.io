@@ -6756,11 +6756,15 @@ a {
 }
 .cid-t69HFycDJE .card-title,
 .cid-t69HFycDJE .card-box {
-  color: #ffffff;
+  color: #fafafa;
 }
 .cid-t69HFycDJE .mbr-text,
 .cid-t69HFycDJE .link-wrap {
   color: #ffffff;
+}
+.cid-t69HFycDJE .card-box .mbr-text,
+.cid-t69HFycDJE .mbr-section-btn {
+  color: #fafafa;
 }
 .cid-t69GNeYe3Y {
   padding-top: 6rem;

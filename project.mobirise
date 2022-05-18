@@ -8263,10 +8263,13 @@
               "color": "#232323"
             },
             ".card-title, .card-box": {
-              "color": "#ffffff"
+              "color": "#fafafa"
             },
             ".mbr-text, .link-wrap": {
               "color": "#ffffff"
+            },
+            ".card-box .mbr-text, .mbr-section-btn": {
+              "color": "#fafafa"
             }
           },
           "_name": "info3",
