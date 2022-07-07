@@ -1696,27 +1696,6 @@ a {
     padding: 2rem;
   }
 }
-.cid-t0WY37o9dy {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
-  background-color: #ffffff;
-}
-@media (max-width: 991px) {
-  .cid-t0WY37o9dy .image-wrapper {
-    margin-bottom: 1rem;
-  }
-}
-.cid-t0WY37o9dy .row {
-  flex-direction: row-reverse;
-}
-.cid-t0WY37o9dy img {
-  width: 100%;
-}
-@media (min-width: 992px) {
-  .cid-t0WY37o9dy .text-wrapper {
-    padding: 2rem;
-  }
-}
 .cid-t4yLHbTdel {
   padding-top: 6rem;
   padding-bottom: 6rem;
@@ -3678,32 +3657,6 @@ a {
   .cid-t2EpfM6F6X .text-wrapper {
     padding: 2rem;
   }
-}
-.cid-t2EF6anDkk {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-  background-image: url("../../../assets/images/newtokovl-logo-1686x1330.jpg");
-}
-.cid-t2EF6anDkk .row {
-  flex-direction: row-reverse;
-}
-.cid-t2EF6anDkk .video-wrapper iframe {
-  width: 100%;
-}
-.cid-t2EF6anDkk .mbr-section-title,
-.cid-t2EF6anDkk .mbr-description {
-  text-align: center;
-}
-@media (min-width: 992px) {
-  .cid-t2EF6anDkk .text-wrapper {
-    padding: 2rem;
-  }
-}
-.cid-t2EF6anDkk .mbr-description {
-  color: #ffffff;
-}
-.cid-t2EF6anDkk .mbr-section-title {
-  color: #ffffff;
 }
 .cid-t4CDZOqUwX {
   padding-top: 9rem;
