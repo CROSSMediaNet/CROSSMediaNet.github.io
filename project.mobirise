@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "OTTU Media",
-    "currentPage": "channel-guide.html",
+    "currentPage": "home.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -91,7 +91,7 @@
         "main": true,
         "title": "HOME",
         "meta_descr": "",
-        "header_custom": "",
+        "header_custom": "<!-- Pixel Code for https://www.benifit.app/ -->\n<script defer src=\"https://www.benifit.app/pixel/cexrdszcnnwk4awlt9tu43q7hck42vvv\"></script>\n<!-- END Pixel Code -->",
         "footer_custom": "",
         "html_before": ""
       },
@@ -3216,11 +3216,11 @@
           "_sourceTheme": "mobirise5",
           "_customHTML": "<section data-bs-version=\"5.1\" class=\"content12\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#fff0b0\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-5\" data-toolbar=\"-mbrBtnMove,-mbrAddBtn\"><a class=\"btn btn-warning\" href=\"on-the-air.html\" data-app-placeholder=\"Type Text\">Back to On The Air</a>\n                    <a class=\"btn btn-warning\" href=\"live-broadcasting.html\" data-app-placeholder=\"Type Text\">Live Broadcasting</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "tgwxS5sxZ2",
+          "_anchor": "content12-31",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content12-31"
+          "_params": {}
         },
         {
           "alias": false,
@@ -3308,11 +3308,11 @@
           "_sourceTheme": "mobirise5",
           "_customHTML": "<section data-bs-version=\"5.1\" class=\"content12\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#353535\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-5\" data-toolbar=\"-mbrBtnMove,-mbrAddBtn\"><a class=\"btn btn-secondary\" href=\"on-the-air.html\" data-app-placeholder=\"Type Text\">Back to On The Air</a>\n                    <a class=\"btn btn-secondary\" href=\"live-broadcasting.html\" data-app-placeholder=\"Type Text\">Live Broadcasting</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "tgwxTPGacW",
+          "_anchor": "content12-32",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content12-32"
+          "_params": {}
         },
         {
           "alias": false,
@@ -3400,11 +3400,11 @@
           "_sourceTheme": "mobirise5",
           "_customHTML": "<section data-bs-version=\"5.1\" class=\"content12\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#b09fd5\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-5\" data-toolbar=\"-mbrBtnMove,-mbrAddBtn\"><a class=\"btn btn-warning\" href=\"on-the-air-tv.html\" data-app-placeholder=\"Type Text\">Back to On The Air</a>\n                    <a class=\"btn btn-warning\" href=\"live-broadcasting.html\" data-app-placeholder=\"Type Text\">Live Broadcasting</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "tgwxVDZSJm",
+          "_anchor": "content12-33",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content12-33"
+          "_params": {}
         },
         {
           "alias": false,
@@ -3492,11 +3492,11 @@
           "_sourceTheme": "mobirise5",
           "_customHTML": "<section data-bs-version=\"5.1\" class=\"content12\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#6ec7f2\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-5\" data-toolbar=\"-mbrBtnMove,-mbrAddBtn\"><a class=\"btn btn-info\" href=\"on-the-air.html\" data-app-placeholder=\"Type Text\">Back to On The Air</a>\n                    <a class=\"btn btn-primary\" href=\"live-broadcasting.html\" data-app-placeholder=\"Type Text\">Live Broadcasting</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "tgwxXKXBYK",
+          "_anchor": "content12-34",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content12-34"
+          "_params": {}
         },
         {
           "alias": false,
