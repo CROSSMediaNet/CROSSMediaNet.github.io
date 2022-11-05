@@ -2447,8 +2447,8 @@ a {
   background-image: url("../../../assets/images/the-new-ottu-media-logo-roku-made-with-postermywall-900x900.png");
 }
 .cid-tg3LOP0B3I .mbr-overlay {
-  background: #fafafa;
-  opacity: 0.1;
+  background: #353535;
+  opacity: 0.5;
 }
 .cid-tg3LOP0B3I img,
 .cid-tg3LOP0B3I .item-img {
@@ -2475,12 +2475,18 @@ a {
 }
 @media (min-width: 992px) {
   .cid-tg3LOP0B3I .item-wrapper .item-content {
-    padding: 2rem;
+    padding: 2rem 2rem 0;
+  }
+  .cid-tg3LOP0B3I .item-wrapper .item-footer {
+    padding: 0 2rem 2rem;
   }
 }
 @media (max-width: 991px) {
   .cid-tg3LOP0B3I .item-wrapper .item-content {
-    padding: 1rem;
+    padding: 1rem 1rem 0;
+  }
+  .cid-tg3LOP0B3I .item-wrapper .item-footer {
+    padding: 0 1rem 1rem;
   }
 }
 .cid-tg3LOP0B3I .mbr-section-btn {
@@ -2495,7 +2501,7 @@ a {
 }
 .cid-tg3LOP0B3I .item-title {
   text-align: left;
-  color: #6592e6;
+  color: #e43f3f;
 }
 .cid-tg3LOP0B3I .item-subtitle {
   text-align: left;
@@ -5743,7 +5749,7 @@ a {
 .cid-sFF3CYc3p7 {
   padding-top: 30px;
   padding-bottom: 30px;
-  background-color: #232323;
+  background-color: #e43f3f;
   overflow: hidden;
 }
 .cid-tm8eUGAJTN .navbar-dropdown {
@@ -7073,7 +7079,7 @@ a {
 .cid-tm0K8y00kt {
   padding-top: 30px;
   padding-bottom: 30px;
-  background-color: #e43f3f;
+  background-color: #232323;
   overflow: hidden;
 }
 .cid-tm8fngUAA2 .navbar-dropdown {
