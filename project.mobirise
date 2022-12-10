@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "OTTU Media",
-    "currentPage": "VTN.html",
+    "currentPage": "home.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -85,7 +85,8 @@
     "pwa-switcher": true,
     "publishChangesOnly": true,
     "global_before_html": "\n",
-    "global_header_custom": "<!-- Mobsted {literal} -->\n<script>\n    (function(m,o,b,s,t,e,d){\n      m[t]=m[t]||{},e=o.createElement(b),d=o.getElementsByTagName(b)[0],\n        e.async=1,e.src=s,d.parentNode.insertBefore(e,d)\n    })(window,document,\"script\",\"https://cdn.mobsted.com/pwaless.js\",\"pwaless\");\n    pwaless.config = {\n      accountId: \"cedc9857\",\n      server: \"mobsted.com\",\n      projectId: 15\n    }\n</script>\n<!-- /Mobsted {/literal} -->"
+    "global_header_custom": "<!-- Mobsted {literal} -->\n<script>\n    (function(m,o,b,s,t,e,d){\n      m[t]=m[t]||{},e=o.createElement(b),d=o.getElementsByTagName(b)[0],\n        e.async=1,e.src=s,d.parentNode.insertBefore(e,d)\n    })(window,document,\"script\",\"https://cdn.mobsted.com/pwaless.js\",\"pwaless\");\n    pwaless.config = {\n      accountId: \"cedc9857\",\n      server: \"mobsted.com\",\n      projectId: 15\n    }\n</script>\n<!-- /Mobsted {/literal} -->",
+    "google-analytics": "<a title=\"Google Analytics Alternative\" href=\"https://clicky.com/101390235\"><img alt=\"Clicky\" src=\"//static.getclicky.com/media/links/badge.gif\" border=\"0\" /></a>\n<script async src=\"//static.getclicky.com/101390235.js\"></script>\n<noscript><p><img alt=\"Clicky\" width=\"1\" height=\"1\" src=\"//in.getclicky.com/101390235ns.gif\" /></p></noscript>"
   },
   "pages": {
     "home.html": {
