@@ -1629,7 +1629,7 @@ a {
   min-height: 77px;
   transition: all .3s;
   border-bottom: 1px solid transparent;
-  background: rgba(255, 255, 255, 0.1);
+  background: #ffffff;
 }
 .cid-s48OLK6784 .navbar:not(.navbar-short) {
   border-bottom: 1px solid #e6e6e6;
@@ -2105,7 +2105,7 @@ a {
   min-height: 77px;
   transition: all .3s;
   border-bottom: 1px solid transparent;
-  background: rgba(255, 255, 255, 0.1);
+  background: #ffffff;
 }
 .cid-s48OLK6784 .navbar:not(.navbar-short) {
   border-bottom: 1px solid #e6e6e6;
@@ -7366,7 +7366,7 @@ a {
   }
 }
 .cid-tm0y4kM0Mj .mbr-section-title {
-  color: #e43f3f;
+  color: #fafafa;
 }
 .cid-tm0BMNq3vF {
   padding-top: 3rem;
@@ -7999,7 +7999,7 @@ a {
 .cid-tm0LkncCAg {
   padding-top: 6rem;
   padding-bottom: 6rem;
-  background-image: url("../../../assets/images/ottu-television-made-with-postermywall-300x200.jpg");
+  background-image: url("../../../assets/images/247-television-1749x1239.jpeg");
 }
 .cid-tm0LkncCAg .mbr-fallback-image.disabled {
   display: none;
@@ -8036,7 +8036,7 @@ a {
   }
 }
 .cid-tm0LkncCAg .mbr-section-title {
-  color: #c33535;
+  color: #fafafa;
   text-align: center;
 }
 .cid-tm0LntzoNU {
@@ -8226,9 +8226,6 @@ a {
 .cid-tzWMOx4K0Q .navbar-dropdown {
   position: relative !important;
 }
-.cid-tzWMOx4K0Q .navbar-dropdown {
-  position: absolute !important;
-}
 .cid-tzWMOx4K0Q .dropdown-item:before {
   font-family: Moririse2 !important;
   content: "\e966";
@@ -8332,7 +8329,8 @@ a {
   min-height: 70px;
   transition: all 0.3s;
   border-bottom: 1px solid transparent;
-  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+  background: #ffffff;
 }
 .cid-tzWMOx4K0Q .navbar.opened {
   transition: all 0.3s;
@@ -10068,7 +10066,7 @@ a {
   min-height: 77px;
   transition: all .3s;
   border-bottom: 1px solid transparent;
-  background: rgba(255, 255, 255, 0.1);
+  background: #ffffff;
 }
 .cid-s48OLK6784 .navbar:not(.navbar-short) {
   border-bottom: 1px solid #e6e6e6;
