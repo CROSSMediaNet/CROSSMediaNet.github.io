@@ -728,6 +728,125 @@ a {
   text-align: center;
   color: #ff6666;
 }
+.cid-tfb7Xu00XV {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-image: url("../../../assets/images/x-cable-imp-transparent-made-with-postermywall-1-1080x1080.webp");
+}
+.cid-tfb7Xu00XV .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-tfb7Xu00XV .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.cid-tfb7Xu00XV .row {
+  flex-direction: row-reverse;
+}
+.cid-tfb7Xu00XV .video-wrapper iframe {
+  width: 100%;
+}
+.cid-tfb7Xu00XV .mbr-section-title,
+.cid-tfb7Xu00XV .mbr-description {
+  text-align: center;
+}
+@media (min-width: 992px) {
+  .cid-tfb7Xu00XV .text-wrapper {
+    padding: 2rem;
+  }
+}
+.cid-tfb7Xu00XV .mbr-section-title {
+  color: #ffffff;
+}
+.cid-tfb7Xu00XV .mbr-text {
+  color: #ffffff;
+}
+.cid-tfb7Xu00XV .mbr-section-subtitle {
+  color: #ffe161;
+}
+.cid-tfb7Xu00XV .mbr-description {
+  color: #ffe161;
+}
+.cid-tAA4MgxNFY {
+  padding-top: 45px;
+  padding-bottom: 45px;
+  background: linear-gradient(27deg, #e43f3f, #232323);
+}
+.cid-tAA4MgxNFY .mbr-section {
+  text-align: center;
+  color: #fff;
+}
+.cid-tAA4MgxNFY * {
+  box-sizing: border-box;
+}
+.cid-tAA4MgxNFY body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 5rem 1rem;
+}
+.cid-tAA4MgxNFY p {
+  margin: 0 0 1rem;
+}
+.cid-tAA4MgxNFY img {
+  display: block;
+  width: 100%;
+  border-radius: 18px;
+  -webkit-border-radius: 18px;
+  -moz-border-radius: 18px;
+}
+.cid-tAA4MgxNFY .flex-container {
+  max-width: 69rem;
+  margin: 0 auto 5rem auto;
+  filter: drop-shadow(16px 16px 9px #232323);
+}
+.cid-tAA4MgxNFY .col {
+  position: relative;
+}
+.cid-tAA4MgxNFY .col--img {
+  flex: 0 0 38%;
+  align-self: flex-start;
+}
+.cid-tAA4MgxNFY .col--text {
+  background-color: #c33535;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  border-radius: 19px;
+  -webkit-border-radius: 19px;
+  -moz-border-radius: 19px;
+}
+@media (min-width: 40em) {
+  .cid-tAA4MgxNFY h3 {
+    font-size: 2rem;
+  }
+  .cid-tAA4MgxNFY .flex-container {
+    display: flex;
+  }
+  .cid-tAA4MgxNFY .col--text {
+    padding: 2rem 4rem;
+    margin-top: 2rem;
+    margin-left: -2rem;
+    z-index: -1;
+  }
+}
+.cid-tAA4MgxNFY .mbr-section-subtitle {
+  text-align: left;
+  color: #ffffff;
+}
+.cid-tAA4MgxNFY P {
+  color: #ffffff;
+  text-align: left;
+}
+.cid-tAA4MgxNFY H3 {
+  text-align: left;
+  color: #ffffff;
+}
 .cid-t63ACZl5Z3.popup-builder {
   background-color: #ffffff;
 }
@@ -1025,81 +1144,6 @@ a {
 }
 .cid-t63ACZl5Z3 .mbr-section-btn .btn {
   margin: 0;
-}
-.cid-tAA4MgxNFY {
-  padding-top: 45px;
-  padding-bottom: 45px;
-  background: linear-gradient(27deg, #e43f3f, #232323);
-}
-.cid-tAA4MgxNFY .mbr-section {
-  text-align: center;
-  color: #fff;
-}
-.cid-tAA4MgxNFY * {
-  box-sizing: border-box;
-}
-.cid-tAA4MgxNFY body {
-  font-family: "Open Sans", sans-serif;
-  margin: 0;
-  padding: 5rem 1rem;
-}
-.cid-tAA4MgxNFY p {
-  margin: 0 0 1rem;
-}
-.cid-tAA4MgxNFY img {
-  display: block;
-  width: 100%;
-  border-radius: 18px;
-  -webkit-border-radius: 18px;
-  -moz-border-radius: 18px;
-}
-.cid-tAA4MgxNFY .flex-container {
-  max-width: 69rem;
-  margin: 0 auto 5rem auto;
-  filter: drop-shadow(16px 16px 9px #232323);
-}
-.cid-tAA4MgxNFY .col {
-  position: relative;
-}
-.cid-tAA4MgxNFY .col--img {
-  flex: 0 0 38%;
-  align-self: flex-start;
-}
-.cid-tAA4MgxNFY .col--text {
-  background-color: #c33535;
-  padding: 1rem;
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  border-radius: 19px;
-  -webkit-border-radius: 19px;
-  -moz-border-radius: 19px;
-}
-@media (min-width: 40em) {
-  .cid-tAA4MgxNFY h3 {
-    font-size: 2rem;
-  }
-  .cid-tAA4MgxNFY .flex-container {
-    display: flex;
-  }
-  .cid-tAA4MgxNFY .col--text {
-    padding: 2rem 4rem;
-    margin-top: 2rem;
-    margin-left: -2rem;
-    z-index: -1;
-  }
-}
-.cid-tAA4MgxNFY .mbr-section-subtitle {
-  text-align: left;
-  color: #ffffff;
-}
-.cid-tAA4MgxNFY P {
-  color: #ffffff;
-  text-align: left;
-}
-.cid-tAA4MgxNFY H3 {
-  text-align: left;
-  color: #ffffff;
 }
 .cid-s48OLK6784 .navbar-dropdown {
   position: relative !important;
@@ -1435,50 +1479,6 @@ a {
     max-width: calc(100% + 2rem);
     left: -1rem;
   }
-}
-.cid-tfb7Xu00XV {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-  background-image: url("../../../assets/images/x-cable-imp-transparent-made-with-postermywall-1-1080x1080.webp");
-}
-.cid-tfb7Xu00XV .mbr-fallback-image.disabled {
-  display: none;
-}
-.cid-tfb7Xu00XV .mbr-fallback-image {
-  display: block;
-  background-size: cover;
-  background-position: center center;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-}
-.cid-tfb7Xu00XV .row {
-  flex-direction: row-reverse;
-}
-.cid-tfb7Xu00XV .video-wrapper iframe {
-  width: 100%;
-}
-.cid-tfb7Xu00XV .mbr-section-title,
-.cid-tfb7Xu00XV .mbr-description {
-  text-align: center;
-}
-@media (min-width: 992px) {
-  .cid-tfb7Xu00XV .text-wrapper {
-    padding: 2rem;
-  }
-}
-.cid-tfb7Xu00XV .mbr-section-title {
-  color: #ffffff;
-}
-.cid-tfb7Xu00XV .mbr-text {
-  color: #ffffff;
-}
-.cid-tfb7Xu00XV .mbr-section-subtitle {
-  color: #ffe161;
-}
-.cid-tfb7Xu00XV .mbr-description {
-  color: #ffe161;
 }
 .cid-txe7LS41Dl {
   padding-top: 4rem;
