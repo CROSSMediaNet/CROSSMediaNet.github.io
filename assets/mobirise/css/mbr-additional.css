@@ -7237,9 +7237,6 @@ a {
     left: -1rem;
   }
 }
-.cid-tm0fSYaVyy {
-  background-image: url("../../../assets/images/my-genre-radio-fm-logo-2-made-with-postermywall-900x900.webp");
-}
 .cid-tm0fSYaVyy .icon-wrapper {
   margin: auto;
   background-color: #4479d9;
@@ -7394,66 +7391,100 @@ a {
 .cid-tm0fT1DSY7 .mbr-section-title {
   color: #1d4a9a;
 }
-.cid-tm0fT2J8xk {
+.cid-tNxUi9kThM {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: #353535;
+}
+.cid-tNxUi9kThM .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-tNxUi9kThM .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.cid-tNxUi9kThM .mbr-section-title {
+  text-align: center;
+  color: #ffe161;
+}
+.cid-tNxUi9kThM .mbr-section-subtitle {
+  color: #8caff0;
+}
+.cid-tNxLIPBihb {
   padding-top: 6rem;
   padding-bottom: 6rem;
-  background-image: url("../../../assets/images/my-genre-radio-fm-logo-2-made-with-postermywall-900x900.webp");
+  background-image: url("../../../assets/images/my-genre-radio-fm-logo-2-made-with-postermywall-1600x1080.webp");
 }
-.cid-tm0fT2J8xk .mbr-overlay {
-  background: #353535;
-  opacity: 0.7;
+.cid-tNxLIPBihb .mbr-fallback-image.disabled {
+  display: none;
 }
-.cid-tm0fT2J8xk img,
-.cid-tm0fT2J8xk .item-img {
+.cid-tNxLIPBihb .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
   width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
 }
-.cid-tm0fT2J8xk .item:focus,
-.cid-tm0fT2J8xk span:focus {
-  outline: none;
-}
-.cid-tm0fT2J8xk .item {
-  cursor: pointer;
+.cid-tNxLIPBihb .item:not(:nth-last-child(1)) {
   margin-bottom: 2rem;
 }
-.cid-tm0fT2J8xk .item-wrapper {
-  position: relative;
+.cid-tNxLIPBihb .item-wrapper {
+  background-color: #4479d9;
   border-radius: 4px;
-  background: #1d4a9a;
-  height: 100%;
+}
+.cid-tNxLIPBihb .image-wrapper img {
+  width: 100%;
+  object-fit: cover;
+}
+.cid-tNxLIPBihb .social-row .soc-item {
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  margin-right: 0.6rem;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  border: 2px solid #6592e6;
+  transition: all 0.3s;
+}
+.cid-tNxLIPBihb .social-row .soc-item .mbr-iconfont {
   display: flex;
-  flex-flow: column nowrap;
+  justify-content: center;
+  align-content: center;
+  color: #6592e6;
+  font-size: 1.5rem;
+  transition: all 0.3s;
 }
-@media (min-width: 992px) {
-  .cid-tm0fT2J8xk .item-wrapper .item-content {
-    padding: 2rem;
-  }
+.cid-tNxLIPBihb .social-row .soc-item:hover {
+  background-color: #6592e6;
 }
-@media (max-width: 991px) {
-  .cid-tm0fT2J8xk .item-wrapper .item-content {
+.cid-tNxLIPBihb .social-row .soc-item:hover .mbr-iconfont {
+  color: #ffffff;
+}
+@media (max-width: 767px) {
+  .cid-tNxLIPBihb .card-box {
     padding: 1rem;
   }
 }
-.cid-tm0fT2J8xk .mbr-section-btn {
-  margin-top: auto !important;
+@media (min-width: 768px) {
+  .cid-tNxLIPBihb .card-box {
+    padding-right: 2rem;
+  }
 }
-.cid-tm0fT2J8xk .mbr-section-title {
-  color: #f8de6c;
+@media (min-width: 992px) {
+  .cid-tNxLIPBihb .card-box {
+    padding-left: 2rem;
+    padding-right: 4rem;
+  }
 }
-.cid-tm0fT2J8xk .mbr-text,
-.cid-tm0fT2J8xk .mbr-section-btn {
-  text-align: left;
+.cid-tNxLIPBihb .card-title {
   color: #ffe161;
-}
-.cid-tm0fT2J8xk .item-title {
-  text-align: center;
-  color: #fafafa;
-}
-.cid-tm0fT2J8xk .item-subtitle {
-  text-align: left;
-  color: #bbbbbb;
-}
-.cid-tm0fT2J8xk .mbr-section-subtitle {
-  color: #8caff0;
 }
 .cid-tm0fT4E4kp {
   padding-top: 2rem;
