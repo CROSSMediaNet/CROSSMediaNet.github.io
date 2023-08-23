@@ -10919,60 +10919,117 @@ a {
 .cid-tKl387OV6D .mbr-text {
   color: #111111;
 }
-.cid-tJX4mE1QPv {
+.cid-tNJfO5AFUT {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #458807;
+}
+.cid-tNJfO5AFUT hr {
+  border: 0;
+  clear: both;
+  display: block;
+  margin: 2.4rem auto;
+  text-align: center;
+  width: 96%;
+}
+.cid-tNJfO5AFUT .progress {
+  background: #ffe161;
+  opacity: 1;
+  height: 7px;
+  overflow: hidden;
+  position: relative;
+}
+.cid-tNJfO5AFUT .progress::before {
+  animation-duration: 2s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+  animation-name: progress;
+  background: #67d600;
+  content: "";
+  display: block;
+  height: 7px;
+  position: absolute;
+  width: 100px;
+}
+@keyframes progress {
+  from {
+    margin-left: 0%;
+    width: 156px;
+  }
+  to {
+    margin-left: 100%;
+    width: 156px;
+  }
+}
+.cid-tNJ0yy7WOo {
   padding-top: 6rem;
   padding-bottom: 6rem;
   background-image: url("../../../assets/images/urban-core-television-network-logo-1920x1080.webp");
 }
-.cid-tJX4mE1QPv .mbr-overlay {
-  background: #fafafa;
-  opacity: 0.6;
+.cid-tNJ0yy7WOo .mbr-fallback-image.disabled {
+  display: none;
 }
-.cid-tJX4mE1QPv img,
-.cid-tJX4mE1QPv .item-img {
+.cid-tNJ0yy7WOo .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
   width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
 }
-.cid-tJX4mE1QPv .item:focus,
-.cid-tJX4mE1QPv span:focus {
-  outline: none;
-}
-.cid-tJX4mE1QPv .item {
-  cursor: pointer;
+.cid-tNJ0yy7WOo .item:not(:nth-last-child(1)) {
   margin-bottom: 2rem;
 }
-.cid-tJX4mE1QPv .item-wrapper {
-  position: relative;
+.cid-tNJ0yy7WOo .item-wrapper {
+  background-color: #458807;
   border-radius: 4px;
-  background: #458807;
-  height: 100%;
+}
+.cid-tNJ0yy7WOo .image-wrapper img {
+  width: 100%;
+  object-fit: cover;
+}
+.cid-tNJ0yy7WOo .social-row .soc-item {
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  margin-right: 0.6rem;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  border: 2px solid #6592e6;
+  transition: all 0.3s;
+}
+.cid-tNJ0yy7WOo .social-row .soc-item .mbr-iconfont {
   display: flex;
-  flex-flow: column nowrap;
+  justify-content: center;
+  align-content: center;
+  color: #6592e6;
+  font-size: 1.5rem;
+  transition: all 0.3s;
 }
-@media (min-width: 992px) {
-  .cid-tJX4mE1QPv .item-wrapper .item-content {
-    padding: 2rem;
-  }
+.cid-tNJ0yy7WOo .social-row .soc-item:hover {
+  background-color: #6592e6;
 }
-@media (max-width: 991px) {
-  .cid-tJX4mE1QPv .item-wrapper .item-content {
+.cid-tNJ0yy7WOo .social-row .soc-item:hover .mbr-iconfont {
+  color: #ffffff;
+}
+@media (max-width: 767px) {
+  .cid-tNJ0yy7WOo .card-box {
     padding: 1rem;
   }
 }
-.cid-tJX4mE1QPv .mbr-section-btn {
-  margin-top: auto !important;
+@media (min-width: 768px) {
+  .cid-tNJ0yy7WOo .card-box {
+    padding-right: 2rem;
+  }
 }
-.cid-tJX4mE1QPv .mbr-section-title {
-  color: #232323;
+@media (min-width: 992px) {
+  .cid-tNJ0yy7WOo .card-box {
+    padding-left: 2rem;
+    padding-right: 4rem;
+  }
 }
-.cid-tJX4mE1QPv .mbr-text,
-.cid-tJX4mE1QPv .mbr-section-btn {
-  text-align: left;
-}
-.cid-tJX4mE1QPv .item-title {
-  text-align: left;
-}
-.cid-tJX4mE1QPv .item-subtitle {
-  text-align: left;
+.cid-tNJ0yy7WOo .card-subtitle {
   color: #ffe161;
 }
 .cid-tJX4mEN15s {
