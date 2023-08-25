@@ -5191,61 +5191,118 @@ a {
 .cid-tKkNbKN95V .mbr-text {
   color: #111111;
 }
-.cid-tlOgfa3Vya {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
-  background-image: url("../../../assets/images/the-reel-tv-network-logo-2-made-with-postermywall-900x900.webp");
+.cid-tNUZLJFcGY {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #ffe161;
 }
-.cid-tlOgfa3Vya .mbr-overlay {
-  background: #fafafa;
-  opacity: 0.6;
+.cid-tNUZLJFcGY hr {
+  border: 0;
+  clear: both;
+  display: block;
+  margin: 2.4rem auto;
+  text-align: center;
+  width: 96%;
 }
-.cid-tlOgfa3Vya img,
-.cid-tlOgfa3Vya .item-img {
-  width: 100%;
-}
-.cid-tlOgfa3Vya .item:focus,
-.cid-tlOgfa3Vya span:focus {
-  outline: none;
-}
-.cid-tlOgfa3Vya .item {
-  cursor: pointer;
-  margin-bottom: 2rem;
-}
-.cid-tlOgfa3Vya .item-wrapper {
+.cid-tNUZLJFcGY .progress {
+  background: #cccccc;
+  opacity: 1;
+  height: 7px;
+  overflow: hidden;
   position: relative;
-  border-radius: 4px;
-  background: #ffe161;
-  height: 100%;
-  display: flex;
-  flex-flow: column nowrap;
 }
-@media (min-width: 992px) {
-  .cid-tlOgfa3Vya .item-wrapper .item-content {
-    padding: 2rem;
+.cid-tNUZLJFcGY .progress::before {
+  animation-duration: 2s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+  animation-name: progress;
+  background: #7841f2;
+  content: "";
+  display: block;
+  height: 7px;
+  position: absolute;
+  width: 100px;
+}
+@keyframes progress {
+  from {
+    margin-left: 0%;
+    width: 156px;
+  }
+  to {
+    margin-left: 100%;
+    width: 156px;
   }
 }
-@media (max-width: 991px) {
-  .cid-tlOgfa3Vya .item-wrapper .item-content {
+.cid-tNUX9ypoAE {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  background-image: url("../../../assets/images/the-reel-tv-network-logo-2-made-with-postermywall-596x596.webp");
+}
+.cid-tNUX9ypoAE .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-tNUX9ypoAE .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.cid-tNUX9ypoAE .item:not(:nth-last-child(1)) {
+  margin-bottom: 2rem;
+}
+.cid-tNUX9ypoAE .item-wrapper {
+  background-color: #ffe161;
+  border-radius: 4px;
+}
+.cid-tNUX9ypoAE .image-wrapper img {
+  width: 100%;
+  object-fit: cover;
+}
+.cid-tNUX9ypoAE .social-row .soc-item {
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  margin-right: 0.6rem;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  border: 2px solid #6592e6;
+  transition: all 0.3s;
+}
+.cid-tNUX9ypoAE .social-row .soc-item .mbr-iconfont {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  color: #6592e6;
+  font-size: 1.5rem;
+  transition: all 0.3s;
+}
+.cid-tNUX9ypoAE .social-row .soc-item:hover {
+  background-color: #6592e6;
+}
+.cid-tNUX9ypoAE .social-row .soc-item:hover .mbr-iconfont {
+  color: #ffffff;
+}
+@media (max-width: 767px) {
+  .cid-tNUX9ypoAE .card-box {
     padding: 1rem;
   }
 }
-.cid-tlOgfa3Vya .mbr-section-btn {
-  margin-top: auto !important;
+@media (min-width: 768px) {
+  .cid-tNUX9ypoAE .card-box {
+    padding-right: 2rem;
+  }
 }
-.cid-tlOgfa3Vya .mbr-section-title {
-  color: #232323;
+@media (min-width: 992px) {
+  .cid-tNUX9ypoAE .card-box {
+    padding-left: 2rem;
+    padding-right: 4rem;
+  }
 }
-.cid-tlOgfa3Vya .mbr-text,
-.cid-tlOgfa3Vya .mbr-section-btn {
-  text-align: left;
-}
-.cid-tlOgfa3Vya .item-title {
-  text-align: left;
-}
-.cid-tlOgfa3Vya .item-subtitle {
-  text-align: left;
-  color: #7344d9;
+.cid-tNUX9ypoAE .card-subtitle {
+  color: #7841f2;
 }
 .cid-tlOh3cYjiP {
   padding-top: 2rem;
