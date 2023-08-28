@@ -5218,6 +5218,45 @@ a {
 .cid-tNUX9ypoAE .card-subtitle {
   color: #7841f2;
 }
+.cid-tObXZQQPjB {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-image: url("../../../assets/images/the-new-ottu-media-logo-transparent-made-with-postermywall-900x900.webp");
+}
+.cid-tObXZQQPjB .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-tObXZQQPjB .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.cid-tObXZQQPjB .item-wrapper {
+  display: flex;
+  margin-bottom: 2rem;
+  border-radius: 0 !important;
+}
+@media (max-width: 767px) {
+  .cid-tObXZQQPjB .item-wrapper {
+    margin-bottom: 1rem;
+  }
+}
+.cid-tObXZQQPjB .mbr-iconfont {
+  font-size: 3rem;
+  color: #7841f2;
+  padding-right: 2rem;
+}
+.cid-tObXZQQPjB .mbr-section-title {
+  text-align: center;
+  color: #ffe161;
+}
+.cid-tObXZQQPjB .card-title {
+  color: #ffe161;
+}
 .cid-tlOh3cYjiP {
   padding-top: 2rem;
   padding-bottom: 2rem;
