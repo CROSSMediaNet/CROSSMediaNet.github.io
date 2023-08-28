@@ -11065,15 +11065,15 @@ a {
 .cid-tNJ0yy7WOo .card-subtitle {
   color: #ffe161;
 }
-.cid-tJX4mEN15s {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+.cid-tOc02SGC6R {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   background-image: url("../../../assets/images/the-new-ottu-media-logo-transparent-made-with-postermywall-900x900.webp");
 }
-.cid-tJX4mEN15s .mbr-fallback-image.disabled {
+.cid-tOc02SGC6R .mbr-fallback-image.disabled {
   display: none;
 }
-.cid-tJX4mEN15s .mbr-fallback-image {
+.cid-tOc02SGC6R .mbr-fallback-image {
   display: block;
   background-size: cover;
   background-position: center center;
@@ -11082,68 +11082,27 @@ a {
   position: absolute;
   top: 0;
 }
-.cid-tJX4mEN15s .socicon-bg-facebook {
-  background: #1778f2;
-  color: #ffffff;
+.cid-tOc02SGC6R .item-wrapper {
+  display: flex;
+  margin-bottom: 2rem;
+  border-radius: 0 !important;
 }
-.cid-tJX4mEN15s .socicon-bg-facebook:hover {
-  background: #0b60cb;
+@media (max-width: 767px) {
+  .cid-tOc02SGC6R .item-wrapper {
+    margin-bottom: 1rem;
+  }
 }
-.cid-tJX4mEN15s .socicon-bg-twitter {
-  background: #1da1f2;
-  color: #ffffff;
+.cid-tOc02SGC6R .mbr-iconfont {
+  font-size: 3rem;
+  color: #67d600;
+  padding-right: 2rem;
 }
-.cid-tJX4mEN15s .socicon-bg-twitter:hover {
-  background: #0c85d0;
+.cid-tOc02SGC6R .mbr-section-title {
+  color: #ffe161;
+  text-align: center;
 }
-.cid-tJX4mEN15s .socicon-bg-vkontakte {
-  background: #4680C2;
-  color: #ffffff;
-}
-.cid-tJX4mEN15s .socicon-bg-vkontakte:hover {
-  background: #3567a0;
-}
-.cid-tJX4mEN15s .socicon-bg-odnoklassniki {
-  background: #ee8208;
-  color: #ffffff;
-}
-.cid-tJX4mEN15s .socicon-bg-odnoklassniki:hover {
-  background: #bd6706;
-}
-.cid-tJX4mEN15s .socicon-bg-pinterest {
-  background: #e60023;
-  color: #ffffff;
-}
-.cid-tJX4mEN15s .socicon-bg-pinterest:hover {
-  background: #b3001b;
-}
-.cid-tJX4mEN15s .socicon-bg-mail {
-  background: #005ff9;
-  color: #ffffff;
-}
-.cid-tJX4mEN15s .socicon-bg-mail:hover {
-  background: #004cc6;
-}
-.cid-tJX4mEN15s .btn-social {
-  font-size: 32px;
-  border-radius: 50%;
-  padding: 0;
-  width: 55px;
-  height: 55px;
-  line-height: 55px;
-  position: relative;
-  cursor: pointer;
-  transition: all 0.3s ease-in-out;
-  border: none !important;
-}
-.cid-tJX4mEN15s .btn-social i {
-  top: 0;
-  line-height: 55px;
-  width: 55px;
-}
-.cid-tJX4mEN15s [class^="socicon-"]:before,
-.cid-tJX4mEN15s [class*=" socicon-"]:before {
-  line-height: 55px;
+.cid-tOc02SGC6R .card-title {
+  color: #ffe161;
 }
 .cid-tJX4mF8i0B {
   padding-top: 4rem;
