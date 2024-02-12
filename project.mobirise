@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "OTTU Media",
-    "currentPage": "TVNetworks.html",
+    "currentPage": "ChristendomTV.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -48,7 +48,7 @@
         "url": "https://fonts.googleapis.com/css?family=Jost:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i"
       }
     ],
-    "uniqCompNum": 344,
+    "uniqCompNum": 345,
     "versionPublish": "5.9.0",
     "imageResize": true,
     "screenshot": "screenshot.png",
@@ -5972,158 +5972,107 @@
         {
           "alias": false,
           "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
             "& when (@bg-type = 'color')": {
               "background-color": "@bg-value"
             },
             "& when (@bg-type = 'image')": {
               "background-image": "url(@bg-value)"
             },
-            "& when (@reverseContent)": {
-              ".row": {
-                "flex-direction": "row-reverse"
+            ".mbr-fallback-image.disabled": {
+              "display": "none"
+            },
+            ".mbr-fallback-image": {
+              "display": "block",
+              "background-size": "cover",
+              "background-position": "center center",
+              "width": "100%",
+              "height": "100%",
+              "position": "absolute",
+              "top": "0",
+              "& when (@bg-type = 'video')": {
+                "background-image": "url(@fallBackImage)"
               }
             },
-            ".video-wrapper iframe": {
-              "width": "100%",
-              "height": "720px !important"
+            "& when (@fullWidth)": {
+              ".container-fluid": {
+                "padding": "0 60px",
+                "@media (max-width: 768px)": {
+                  "padding": "0 26px"
+                }
+              }
+            },
+            ".container": {
+              "@media (max-width: 768px)": {
+                "padding": "0 26px"
+              }
+            },
+            ".nav.nav-tabs": {
+              "border-bottom": "0",
+              ".nav-item": {
+                "border": "1px solid @border",
+                "padding": "3px",
+                "@media (max-width: 768px)": {
+                  "width": "100%"
+                },
+                ".nav-link": {
+                  "position": "relative",
+                  "display": "inline-flex",
+                  "justify-content": "flex-start",
+                  "padding": "10px 70px",
+                  "border": "none",
+                  "color": "@tabs",
+                  "border-radius": "0",
+                  "background-color": "transparent",
+                  "@media (max-width: 768px)": {
+                    "padding": "10px 40px",
+                    "justify-content": "center",
+                    "width": "100%"
+                  },
+                  "&::after": {
+                    "content": "''",
+                    "position": "absolute",
+                    "bottom": "0",
+                    "left": "0",
+                    "height": "5px",
+                    "width": "0",
+                    "background-color": "@tabs",
+                    "transition": "all 0.3s ease-in-out"
+                  }
+                },
+                ".nav-link.active": {
+                  "border": "none",
+                  "&::after": {
+                    "width": "100%"
+                  }
+                }
+              }
             },
             ".tab-content": {
-              "background": "@bgvideo",
-              "border-radius": "5px",
-              "padding": "10px",
-              "height": "(@navheight * 1px)"
-            },
-            ".daho-tab": {
-              "border-bottom": "0 !important",
-              "background": "@bgvideo",
-              "border-radius": "5px",
-              "height": "(@navheight * 1px)",
-              "overflow-y": "scroll",
-              "display": "block"
-            },
-            ".tabs-list": {
-              "padding-left": "0",
-              "list-style-type": "none",
-              "margin-bottom": "45px"
-            },
-            ".tabs-list li": {
-              "margin": "auto !important"
-            },
-            ".tabs-list li p": {
-              "display": "block",
-              "margin-top": "10px",
-              "font-weight": "700",
-              "-webkit-transition": ".5s",
-              "transition": "0.5s"
-            },
-            "p": {
-              "margin-bottom": "15px",
-              "line-height": "1.8",
-              "font-weight": "400"
-            },
-            ".section-title": {
-              "margin-bottom": "45px"
-            },
-            ".section-title span": {},
-            ".section-title h2": {
-              "font-weight": "500",
-              "margin-top": "10px",
-              "margin-bottom": "14px"
-            },
-            ".section-title p": {
-              "max-width": "600px",
-              "margin": "auto"
-            },
-            ".daho-tab .nav-item.open .nav-link:focus, .daho-tab .nav-link.active:focus": {
-              "outline": "none"
-            },
-            ".nav-item": {
-              "@media (max-width: 767px)": {
-                "width": "100%",
-                "margin": "0"
+              "padding": "20px",
+              "border": "1px solid @border",
+              "margin-top": "-1px",
+              ".tab-pane": {
+                ".image-wrapper": {
+                  "img": {
+                    "height": "500px",
+                    "object-fit": "cover",
+                    "@media (max-width: 992px)": {
+                      "height": "300px"
+                    }
+                  }
+                }
               }
-            },
-            "img.thumb": {
-              "width": "(@thumbsize * 1px)",
-              "border-radius": "5px !important",
-              "margin-right": "5px"
-            },
-            ".daho-tab .nav-link": {
-              "transition": "all .5s",
-              "border-bottom": "3px solid transparent",
-              "background": "@bgnav",
-              "display": "flex",
-              "align-items": "center",
-              "gap": "15px",
-              "border-radius": "5px",
-              "margin": "10px",
-              "padding": "15px",
-              "border": "1px solid rgba(0, 0, 0, 0.1)",
-              "cursor": "pointer",
-              "&:not(.active)": {
-                "color": "@tabsColor"
-              }
-            },
-            ".daho-tab .nav-item": {
-              "margin-right": "1.5rem"
-            },
-            ".nav-link, .nav-link.active": {
-              "padding": "1rem 0"
-            },
-            ".daho-tab .nav-link.active": {
-              "color": "@activeColor",
-              "border-bottom": "3px solid @activeColor",
-              "background-color": "@bgactive",
-              "display": "flex",
-              "align-items": "center",
-              "gap": "15px",
-              "border-radius": "5px",
-              "margin": "10px",
-              "padding": "10px",
-              "border": "1px solid rgba(0, 0, 0, 0.1)",
-              "cursor": "pointer"
-            },
-            "H4": {
-              "text-align": "center"
-            },
-            "H3": {
-              "text-align": "left",
-              "color": "#4479d9"
-            },
-            ".mbr-section-title": {
-              "text-align": "center"
-            },
-            ".mbr-section-span": {
-              "color": "#e43f3f",
-              "text-align": "center"
-            },
-            ".mbr-section-p": {
-              "text-align": "center"
-            },
-            "UL": {
-              "color": "#e43f3f"
-            },
-            ".mbr-text": {
-              "color": "#ffffff"
-            },
-            "@media only screen and (max-width: 991px)": {
-              ".tab-content": {
-                "margin-top": "15px"
-              }
-            },
-            ".noi when not (@ShowImage)": {
-              "display": "none"
             }
           },
-          "_name": "design-block",
-          "_customHTML": "<section data-bs-version=\"5.1\" class group=\"Dahomy\">\n\n<mbr-parameters>\n        <header>©Dahomy</header>\n        <input type=\"checkbox\" title=\"Show Description\" name=\"ShowDescription\" checked>\n \n<input type=\"checkbox\" title=\"Show Image\" name=\"ShowImage\" checked>\n  <input type=\"color\" title=\"Background Active\" value=\"#ffe161\" name=\"bgactive\">\n  <input type=\"checkbox\" title=\"Media On Left/Right\" name=\"reverseContent\">\n\n        <select title=\"Videos\" name=\"bootstrapTabs\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected>3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n           <option value=\"7\">7</option>\n           <option value=\"8\">8</option>\n           <option value=\"9\">9</option>\n           <option value=\"10\">10</option>\n        </select>\n \n        <input type=\"color\" name=\"tabsColor\" title=\"Color\" value=\"#ff9966\">\n        <input type=\"color\" name=\"activeColor\" title=\"Active Color\" value=\"#ffffff\">\n  <input type=\"color\" name=\"bgvideo\" title=\"BG video & Navs\" value=\"#fac420\">\n  <input type=\"color\" name=\"bgnav\" title=\"BG  Navs Pause\" value=\"#ffffff\">    \n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"10\" max=\"12\" value=\"12\" step=\"1\">\n<input type=\"range\" name=\"navheight\" title=\"Nav Height\" min=\"610\" max=\"700\" value=\"700\" step=\"10\">\n<input type=\"range\" name=\"thumbsize\" title=\"Thumb Size\" min=\"40\" max=\"100\" value=\"100\" step=\"10\">\n\n\n        <header>Settings</header>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"4\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/the%20christendom%20television%20-%20made%20with%20postermywall-900x900.jpeg\" selected>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\">\n         </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#1b1f0a\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay&&bg.type !== 'color'\">\n    </mbr-parameters>\n\n<div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n</div>\n\n\n <div class=\"container-fluid\"> \n <div class=\"row col-12 col-md-{{textWidth}} media-container-row\">\n<div class=\"col-lg-12\">\n         <div class=\"tabs\">\n             <div class=\"single-tabs tabs-five\">\n              <div class=\"row no-gutters\">\n                <div class=\"col-sm-3\">\n              \n                  <ul class=\"daho-tab mb-0 tabs-list nav flex-column nav-pills\" id=\"v-pills-tab\" role=\"tablist\" aria-orientation=\"vertical\">\n                \n      <li mbr-theme-style=\"display-7\" class=\"nav-item  mbr-fonts-style\" mbr-if=\"bootstrapTabs > 0\">            \n        <a class=\"nav-link  show active\" id=\"dahotab-one-tab\" href=\"#dahotab-one\" role=\"tab\" aria-controls=\"dahotab-one\" aria-selected=\"true\">\n <img src=\"@PROJECT_PATH@/assets/images/the%20christendom%20television%20-%20made%20with%20postermywall-596x596.jpg\" class=\"thumb noi \" alt><span mbr-text><b>Welcome </b></span></a></li>\n\n        <li mbr-theme-style=\"display-7\" class=\"nav-item  mbr-fonts-style\" mbr-if=\"bootstrapTabs > 1\">            \n        <a class=\"nav-link\" id=\"dahotab-two-tab\" href=\"#dahotab-two\" role=\"tab\" aria-controls=\"dahotab-two\" aria-selected=\"true\">\n <img src=\"@PROJECT_PATH@/assets/images/24-7-neon-signs-style-text_118419-1331-626x626.jpeg\" class=\"thumb noi \" alt><span mbr-text><b>24/7 </b></span></a></li>\n\n\n                    <li mbr-theme-style=\"display-7\" class=\"nav-item  mbr-fonts-style\" mbr-if=\"bootstrapTabs > 2\">            \n        <a class=\"nav-link\" id=\"dahotab-three-tab\" href=\"#dahotab-three\" role=\"tab\" aria-controls=\"dahotab-three\" aria-selected=\"true\">\n <img src=\"@PROJECT_PATH@/assets/images/footagecrate-neon_sign_live_on_air-effect-lg-1106x577.jpg\" class=\"thumb noi \" alt><span mbr-text><b>Live Streaming </b></span></a></li>\n\n                 <li mbr-theme-style=\"display-7\" class=\"nav-item  mbr-fonts-style\" mbr-if=\"bootstrapTabs > 3\">            \n        <a class=\"nav-link\" id=\"dahotab-four-tab\" data-bs-toggle=\"pill\" href=\"#dahotab-four\" role=\"tab\" aria-controls=\"dahotab-four\" aria-selected=\"true\">\n <img src=\"@THEME_PATH@/components/_images/features/features1.jpg\" class=\"thumb noi \"><span mbr-text><b>Video Four </b></span></a></li>\n \n \n <li mbr-theme-style=\"display-7\" class=\"nav-item  mbr-fonts-style\" mbr-if=\"bootstrapTabs > 4\">            \n        <a class=\"nav-link\" id=\"dahotab-five-tab\" data-bs-toggle=\"pill\" href=\"#dahotab-five\" role=\"tab\" aria-controls=\"dahotab-five\" aria-selected=\"true\">\n <img src=\"@THEME_PATH@/components/_images/features/features2.jpg\" class=\"thumb noi \"><span mbr-text><b>Video Five</b></span></a></li>\n \n \n \n <li mbr-theme-style=\"display-7\" class=\"nav-item  mbr-fonts-style\" mbr-if=\"bootstrapTabs > 5\">            \n        <a class=\"nav-link\" id=\"dahotab-six-tab\" data-bs-toggle=\"pill\" href=\"#dahotab-six\" role=\"tab\" aria-controls=\"dahotab-six\" aria-selected=\"true\">\n <img src=\"@THEME_PATH@/components/_images/features/features3.jpg\" class=\"thumb noi \"><span mbr-text><b>Video Six </b></span></a></li>\n \n \n \n \n <li mbr-theme-style=\"display-7\" class=\"nav-item  mbr-fonts-style\" mbr-if=\"bootstrapTabs > 6\">            \n        <a class=\"nav-link\" id=\"dahotab-seven-tab\" data-bs-toggle=\"pill\" href=\"#dahotab-seven\" role=\"tab\" aria-controls=\"dahotab-seven\" aria-selected=\"true\">\n <img src=\"@THEME_PATH@/components/_images/features/features4.jpg\" class=\"thumb noi \"><span mbr-text><b>Video Seven</b></span></a></li>\n \n \n \n <li mbr-theme-style=\"display-7\" class=\"nav-item  mbr-fonts-style\" mbr-if=\"bootstrapTabs > 7\">            \n        <a class=\"nav-link\" id=\"dahotab-height-tab\" data-bs-toggle=\"pill\" href=\"#dahotab-height\" role=\"tab\" aria-controls=\"dahotab-height\" aria-selected=\"true\">\n <img src=\"@THEME_PATH@/components/_images/features/features5.jpg\" class=\"thumb noi \"><span mbr-text><b>Video Height</b></span></a></li>\n \n \n \n <li mbr-theme-style=\"display-7\" class=\"nav-item  mbr-fonts-style\" mbr-if=\"bootstrapTabs > 8\">            \n        <a class=\"nav-link\" id=\"dahotab-nine-tab\" data-bs-toggle=\"pill\" href=\"#dahotab-nine\" role=\"tab\" aria-controls=\"dahotab-nine\" aria-selected=\"true\">\n <img src=\"@THEME_PATH@/components/_images/features/features6.jpg\" class=\"thumb noi \"><span mbr-text><b>Video Nine</b></span></a></li>\n \n \n \n <li mbr-theme-style=\"display-7\" class=\"nav-item  mbr-fonts-style\" mbr-if=\"bootstrapTabs > 9\">            \n        <a class=\"nav-link\" id=\"dahotab-ten-tab\" data-bs-toggle=\"pill\" href=\"#dahotab-ten\" role=\"tab\" aria-controls=\"dahotab-ten\" aria-selected=\"true\">\n <img src=\"@THEME_PATH@/components/_images/features/features7.jpg\" class=\"thumb noi \"><span mbr-text><b>Video Ten</b></span></a></li>\n \n  \n \n                  </ul>\n                </div>\n                <div class=\"col-sm-8\">\n                  <div class=\"tab-content\" id=\"v-pills-tabContent\">\n\n          <div class=\"tab-pane fade active show\" id=\"dahotab-one\" role=\"tabpanel\" aria-labelledby=\"dahotab-one-tab\" mbr-if=\"bootstrapTabs > 0\">\n                     \n                        <div mbr-video class=\"video-wrapper\">\n                    <iframe src=\"https://youtu.be/K4I20nZo2mU?list=TLGGTnRm1RhuXA0wODAyMjAyNA&loop=0&autoplay=0\"></iframe>\n                </div> <p class=\"mbr-text  pt-3 p-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" mbr-if=\"ShowDescription\">Welcome to Christendom Television Network</p>\n                      </div>\n                    \n\n                    <div class=\"tab-pane fade\" id=\"dahotab-two\" role=\"tabpanel\" aria-labelledby=\"dahotab-two-tab\" mbr-if=\"bootstrapTabs > 1\">\n                      \n                       <div mbr-video class=\"video-wrapper\">\n                    <iframe src=\"https://player.viloud.tv/embed/channel/317c71437fd230d1d5af94b42ebfc075\"></iframe>\n                </div> <p class=\"mbr-text  pt-3 p-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" mbr-if=\"ShowDescription\">\n                    Video Description 2</p>\n                      </div>\n                   \n\n                    <div class=\"tab-pane fade\" id=\"dahotab-three\" role=\"tabpanel\" aria-labelledby=\"dahotab-three-tab\" mbr-if=\"bootstrapTabs > 2\">\n                      \n                       <div mbr-video class=\"video-wrapper\">\n                    <iframe src=\"https://odysee.com/@ChristendomTV:6/live4:3\"></iframe>\n                </div> <p class=\"mbr-text  pt-3 p-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" mbr-if=\"ShowDescription\">\n                    Video Description 3</p>\n                      </div>\n\n                    <div class=\"tab-pane fade\" id=\"dahotab-four\" role=\"tabpanel\" aria-labelledby=\"dahotab-four-tab\" mbr-if=\"bootstrapTabs > 3\">\n                      \n                       <div mbr-video class=\"video-wrapper\">\n                    <iframe src=\"https://www.youtube.com/watch?v=VA8PzkQa8d8\"></iframe>\n                </div> <p class=\"mbr-text  pt-3 p-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" mbr-if=\"ShowDescription\">\n                    Video Description 4</p>\n                      </div>\n                      \n                      \n   <div class=\"tab-pane fade\" id=\"dahotab-five\" role=\"tabpanel\" aria-labelledby=\"dahotab-five-tab\" mbr-if=\"bootstrapTabs > 4\">\n                      \n                       <div mbr-video class=\"video-wrapper\">\n                    <iframe src=\"https://www.youtube.com/watch?v=HujDEPAWboE&loop=0&autoplay=0\"></iframe>\n                </div> <p class=\"mbr-text  pt-3 p-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" mbr-if=\"ShowDescription\">\n                    Video Description 5</p>\n                      </div>                   \n                      \n                      \n    <div class=\"tab-pane fade\" id=\"dahotab-six\" role=\"tabpanel\" aria-labelledby=\"dahotab-six-tab\" mbr-if=\"bootstrapTabs > 5\">\n                      \n                       <div mbr-video class=\"video-wrapper\">\n                    <iframe src=\"https://www.youtube.com/watch?v=VA8PzkQa8d8\"></iframe>\n                </div> <p class=\"mbr-text  pt-3 p-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" mbr-if=\"ShowDescription\">\n                    Video Description 6</p>\n                      </div>                  \n                      \n                      \n   <div class=\"tab-pane fade\" id=\"dahotab-seven\" role=\"tabpanel\" aria-labelledby=\"dahotab-seven-tab\" mbr-if=\"bootstrapTabs > 6\">\n                      \n                       <div mbr-video class=\"video-wrapper\">\n                    <iframe src=\"https://www.youtube.com/watch?v=HujDEPAWboE&loop=0&autoplay=0\"></iframe>\n                </div> <p class=\"mbr-text  pt-3 p-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" mbr-if=\"ShowDescription\">\n                    Video Description 7</p>\n                      </div>                   \n                      \n  <div class=\"tab-pane fade\" id=\"dahotab-height\" role=\"tabpanel\" aria-labelledby=\"dahotab-height-tab\" mbr-if=\"bootstrapTabs > 7\">\n                      \n                       <div mbr-video class=\"video-wrapper\">\n                    <iframe src=\"https://www.youtube.com/watch?v=VA8PzkQa8d8\"></iframe>\n                </div> <p class=\"mbr-text  pt-3 p-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" mbr-if=\"ShowDescription\">\n                    Video Description 8</p>\n                      </div>                    \n                      \n <div class=\"tab-pane fade\" id=\"dahotab-nine\" role=\"tabpanel\" aria-labelledby=\"dahotab-nine-tab\" mbr-if=\"bootstrapTabs > 8\">\n                      \n                       <div mbr-video class=\"video-wrapper\">\n                    <iframe src=\"https://www.youtube.com/watch?v=HujDEPAWboE&loop=0&autoplay=0\"></iframe>\n                </div> <p class=\"mbr-text  pt-3 p-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" mbr-if=\"ShowDescription\">\n                    Video Description 9</p>\n                      </div>                     \n                      \n                      \n  <div class=\"tab-pane fade\" id=\"dahotab-ten\" role=\"tabpanel\" aria-labelledby=\"dahotab-ten-tab\" mbr-if=\"bootstrapTabs > 9\">\n                      \n                       <div mbr-video class=\"video-wrapper\">\n                    <iframe src=\"https://www.youtube.com/watch?v=VA8PzkQa8d8\"></iframe>\n                </div> <p class=\"mbr-text  pt-3 p-2 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" mbr-if=\"ShowDescription\">\n                    Video Description 10</p>\n                      </div>                    \n                      \n                      \n                      \n                  </div>\n                </div>\n              </div>\n            </div>\n          </div>\n        </div></div>\n </div>\n</section>",
-          "_cid": "qLSXeKu3vq",
-          "_anchor": "design-block-qLSXeKu3vq",
-          "_sourceTheme": "mobirise5",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [],
+          "_name": "tabs1",
+          "_sourceTheme": "gamem5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"tabs1 gamem5\" group=\"List\" plugins=\"mbr-tabs\" mbr-class=\"{'mbr-fullscreen': fullScreen,'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <header>Tabs</header>\n        <select title=\"Count\" name=\"bootstrapTabs\">\n            <option value=\"1\">1</option>\n            <option value=\"2\" selected>2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n        </select>\n        <input type=\"color\" title=\"Tabs Color\" value=\"#ffffff\" name=\"tabs\" selected>\n        <input type=\"color\" title=\"Border Color\" value=\"#000000\" name=\"border\" selected>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/the%20christendom%20television%20-%20made%20with%20postermywall-900x900.jpeg\" parallax selected>\n            <input type=\"color\" title=\"Color\" value=\"#000000\">\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"@ADDONS_PATH@/gamem5/components/_images/background1.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#353535\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row\">\n            <div class=\"col-12\">\n                <ul class=\"nav nav-tabs\" role=\"tablist\">\n                    <li mbr-buttons mbr-theme-style=\"display-4\" class=\"nav-item first mbr-fonts-style\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrLink,-mbrBtnRemove,-iconFont\"><a class=\"nav-link mbr-fonts-style show active\" role=\"tab\" data-toggle=\"tab\" data-bs-toggle=\"tab\" href=\"#tabs1-9k_tab0\" data-app-placeholder=\"Type Text\" aria-selected=\"true\">24/7 TELEVISION</a></li>\n                    <li mbr-buttons mbr-theme-style=\"display-4\" class=\"nav-item\" mbr-if=\"bootstrapTabs > 1\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrLink,-mbrBtnRemove,-iconFont\"><a class=\"nav-link mbr-fonts-style active\" role=\"tab\" data-toggle=\"tab\" data-bs-toggle=\"tab\" href=\"#tabs1-9k_tab1\" data-app-placeholder=\"Type Text\" aria-selected=\"true\">\n                            STEAM\n                        </a></li>\n                    <li mbr-buttons mbr-theme-style=\"display-4\" class=\"nav-item\" mbr-if=\"bootstrapTabs > 2\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrLink,-mbrBtnRemove,-iconFont\"><a class=\"nav-link mbr-fonts-style active\" role=\"tab\" data-toggle=\"tab\" data-bs-toggle=\"tab\" href=\"#tabs1-9k_tab2\" data-app-placeholder=\"Type Text\" aria-selected=\"true\">\n                           REDDIT\n                        </a></li>\n                    <li mbr-buttons mbr-theme-style=\"display-4\" class=\"nav-item\" mbr-if=\"bootstrapTabs > 3\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrLink,-mbrBtnRemove,-iconFont\">\n                        <a class=\"nav-link mbr-fonts-style\" role=\"tab\" data-toggle=\"tab\" data-bs-toggle=\"tab\" href=\"#tab4\" data-app-placeholder=\"Type Text\" aria-selected=\"true\">\n                            BATTLE.NET\n                        </a>\n                    </li>\n                    <li mbr-buttons mbr-theme-style=\"display-4\" class=\"nav-item\" mbr-if=\"bootstrapTabs > 4\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrLink,-mbrBtnRemove,-iconFont\">\n                        <a class=\"nav-link mbr-fonts-style\" role=\"tab\" data-toggle=\"tab\" data-bs-toggle=\"tab\" href=\"#tab5\" data-app-placeholder=\"Type Text\" aria-selected=\"true\">\n                            DISCORD\n                        </a>\n                    </li>\n                </ul>\n            </div>\n            <div class=\"col-12\">\n                <div class=\"tab-content\">\n                    <div id=\"tab1\" class=\"tab-pane in active\" role=\"tabpanel\">\n                        <div class=\"image-wrapper\">\n                            <div style=\"position: relative; padding-bottom: 56.25%; height: 0;\"><iframe src=\"https://player.viloud.tv/embed/channel/317c71437fd230d1d5af94b42ebfc075?autoplay=0&volume=1&controls=1&title=1&share=1&open_playlist=0&random=0\" style=\"position: absolute; top: 0; left: 0; width: 100%; height: 100%;\" frameborder=\"0\" allow=\"autoplay\" allowfullscreen></iframe></div>\n                        </div>\n                    </div>\n                    <div id=\"tab2\" class=\"tab-pane\" role=\"tabpanel\" mbr-if=\"bootstrapTabs > 1\">\n                        <div class=\"image-wrapper\">\n                            <iframe id=\"odysee-iframe\" style=\"width:100%; aspect-ratio:16 / 9;\" src=\"https://odysee.com/$/embed/@ChristendomTV:6/live4:3?r=3YoCZNpWTQwSULgTY5vnh2eVnMcshqPd&autoplay=true\" allowfullscreen></iframe>\n                        </div>\n                    </div>\n                    <div id=\"tab3\" class=\"tab-pane\" role=\"tabpanel\" mbr-if=\"bootstrapTabs > 2\">\n                        <div class=\"image-wrapper\">\n                            <img src=\"@ADDONS_PATH@/gamem5/components/_images/background4.jpg\" alt=\"Mobirise\">\n                        </div>\n                    </div>\n                    <div id=\"tab4\" class=\"tab-pane\" role=\"tabpanel\" mbr-if=\"bootstrapTabs > 3\">\n                        <div class=\"image-wrapper\">\n                            <img src=\"@ADDONS_PATH@/gamem5/components/_images/game/image11.jpg\" alt=\"Mobirise\">\n                        </div>\n                    </div>\n                    <div id=\"tab5\" class=\"tab-pane\" role=\"tabpanel\" mbr-if=\"bootstrapTabs > 4\">\n                        <div class=\"image-wrapper\">\n                            <img src=\"@ADDONS_PATH@/gamem5/components/_images/background2.jpg\" alt=\"Mobirise\">\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "u43bAndqZV",
+          "_anchor": "tabs1-9k",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
