@@ -53,7 +53,7 @@
     "imageResize": true,
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/imageedit-1-8749265930-128x128.png",
-    "mbrsiteDomain": "ro935mnkd2",
+    "mbrsiteDomain": "yvir1hwur0",
     "robotsSwitcher": false,
     "sitemapSwitcher": false,
     "sitemapSwitcherAuto": false,
@@ -77,7 +77,7 @@
     "google-analytics": "",
     "usedWebp": true,
     "cookiesAlert": false,
-    "global_footer_custom": "<!-- PushAlert Onsite Messaging -->\n<script type=\"text/javascript\">\n    (function(d, t) {\n        var g = d.createElement(t),\n        s = d.getElementsByTagName(t)[0];\n        g.src = \"https://cdn.inwebr.com/inwebr_324dfd7eb4b569f14c1b53a7a47a56f8.js\";\n        s.parentNode.insertBefore(g, s);\n    }(document, \"script\"));\n</script>\n<!-- End PushAlert Onsite Messaging -->\n"
+    "global_footer_custom": "<script src=\"https://cdn.gravitec.net/storage/1361ebf2b8bb83dc91cdf2a83cc60553/client.js\" async></script>"
   },
   "pages": {
     "home.html": {
