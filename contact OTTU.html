@@ -1,3 +1,15 @@
+<script type="application/javascript" 
+     src="https://sdki.truepush.com/sdk/v2.0.4/app.js" async></script>
+ <script>
+ var truepush = window.truepush || [];
+ truepush.push(function(){
+     truepush.Init({
+         id: "62ccf2c552764b5bd6fcb6da"
+     }, function(error){
+             if(error) console.error(error);
+     })
+ })
+ </script>
 
 <!DOCTYPE html>
 <html  lang="en">
@@ -52,6 +64,32 @@
     (function(d,h,w){var gist=w.gist=w.gist||[];gist.methods=['trackPageView','identify','track','setAppId'];gist.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);gist.push(e);return gist;}};for(var i=0;i<gist.methods.length;i++){var c=gist.methods[i];gist[c]=gist.factory(c)}s=d.createElement('script'),s.src="https://widget.getgist.com",s.async=!0,e=d.getElementsByTagName(h)[0],e.appendChild(s),s.addEventListener('load',function(e){},!1),gist.setAppId("a6xv7fdj"),gist.trackPageView()})(document,'head',window);
 </script>
 <!-- end Gist JS code-->
+
+var version = "v2.0.4";
+var swPath;
+var urlObject = new URL(location);
+var host;
+if (urlObject.searchParams.get("swPath")) {
+    swPath = urlObject.searchParams.get("swPath");
+}
+else {
+    if (urlObject.searchParams.get("version")) {
+        version = urlObject.searchParams.get("version");
+    }
+    if (urlObject.searchParams.get("swJSHost")) {
+        host = "https://" + urlObject.searchParams.get("swJSHost");
+    }
+
+
+
+
+    else {
+        host = "https://sdki.truepush.com/sdk/";
+    }
+    swPath = host + version + "/sw.js";
+}
+importScripts(swPath);
+
   
 
 </head>
@@ -67,7 +105,7 @@
         <div class="row content-wrapper justify-content-center">
             <div class="col-lg-3 offset-lg-1 mbr-form" data-form-type="formoid">
 <!--Formbuilder Form-->
-<form action="https://mobirise.eu/" method="POST" class="mbr-form form-with-styler" data-form-title="Form Name"><input type="hidden" name="email" data-form-email="true" value="xQZAg862Ysk3Q+mUPrUMXn57XLDKzGg6hwQo3U+ZlrdsYP3vuJpu5n4GVlT5zrrI9eNLLqEGEONNRB54vJEE92CqdIe1Dg8AW4MtPh+iz8AD9KRGSszD8ESCDnGy6puR.J2bsXKLAJP9GwUv7UIDpPKubTEDLo8gmCjzPwwH9CzhpOppFb4kCRkM+BIYYOeD8cXCsOdc+ONXVTQS+rDNR5Zi2mDzqMisfg8XpqCde5Z6thYqBWPxfUm9ZDnIWH8X0">
+<form action="https://mobirise.eu/" method="POST" class="mbr-form form-with-styler" data-form-title="Form Name"><input type="hidden" name="email" data-form-email="true" value="W2tRkpsYamvEbxe9RN8GwKLO6FPlmPnGHoJSXPxgGNW1FqmtKlZj0vXajJ3gGibTqWh+0+AN65U2uYMLLIaWD5eWm+5M8hix91cTrwgMuP3DZ/e6AgurOwMFA2cRbrMq.sP1rgg/6WFRtG9SNDtvsz2nl/R/AveXSCfWDSALP9C7nCbtMglMu5y4S2R4b6nVlpe46yV7pn3jjkcATm9eydfFYrnKFQzfxN8LtXTQQGHJ7es3Lkw0tdwsBzWTlO3vN">
 <div class="row">
 <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">Thanks for contacting OTTU Media!!!</div>
 <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12"> Oops...! some problem! </div>
