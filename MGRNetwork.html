@@ -1,16 +1,3 @@
-<script type="application/javascript" 
-     src="https://sdki.truepush.com/sdk/v2.0.4/app.js" async></script>
- <script>
- var truepush = window.truepush || [];
- truepush.push(function(){
-     truepush.Init({
-         id: "62ccf2c552764b5bd6fcb6da"
-     }, function(error){
-             if(error) console.error(error);
-     })
- })
- </script>
-
 <!DOCTYPE html>
 <html  lang="en">
 <head>
@@ -65,31 +52,7 @@
 </script>
 <!-- end Gist JS code-->
 
-var version = "v2.0.4";
-var swPath;
-var urlObject = new URL(location);
-var host;
-if (urlObject.searchParams.get("swPath")) {
-    swPath = urlObject.searchParams.get("swPath");
-}
-else {
-    if (urlObject.searchParams.get("version")) {
-        version = urlObject.searchParams.get("version");
-    }
-    if (urlObject.searchParams.get("swJSHost")) {
-        host = "https://" + urlObject.searchParams.get("swJSHost");
-    }
-
-
-
-
-    else {
-        host = "https://sdki.truepush.com/sdk/";
-    }
-    swPath = host + version + "/sw.js";
-}
-importScripts(swPath);
-
+<script src="https://cdn.gravitec.net/storage/1361ebf2b8bb83dc91cdf2a83cc60553/client.js" async></script>
   
 
 </head>
