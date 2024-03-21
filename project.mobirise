@@ -53,7 +53,7 @@
     "imageResize": true,
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/imageedit-1-8749265930-128x128.png",
-    "mbrsiteDomain": "zcl0y2bulj",
+    "mbrsiteDomain": "v4zvxacgjt",
     "robotsSwitcher": false,
     "sitemapSwitcher": false,
     "sitemapSwitcherAuto": false,
@@ -73,11 +73,11 @@
     "pwa-switcher": true,
     "publishChangesOnly": true,
     "global_before_html": "",
-    "global_header_custom": "<!-- Mobsted {literal} -->\n<script>\n    (function(m,o,b,s,t,e,d){\n      m[t]=m[t]||{},e=o.createElement(b),d=o.getElementsByTagName(b)[0],\n        e.async=1,e.src=s,d.parentNode.insertBefore(e,d)\n    })(window,document,\"script\",\"https://cdn.mobsted.com/pwaless.js\",\"pwaless\");\n    pwaless.config = {\n      accountId: \"cedc9857\",\n      server: \"mobsted.com\",\n      projectId: 15\n    }\n</script>\n<!-- /Mobsted {/literal} -->\n\n<script src=\"https://allinone.rushwidget.com/widget.js\" type=\"text/javascript\"></script>\n<script>\n    new RushWidget({\n        target: document.body,\n        props: {\n            hash: 'zmsopll3m7ea2671w8g5'\n        }\n    });\n</script>\n\n<script type=\"text/javascript\" src=\"https://platform-api.sharethis.com/js/sharethis.js#property=65fb6e74fb0d800012110502&product=inline-share-buttons&source=platform\" async=\"async\"></script>",
+    "global_header_custom": "<!-- Mobsted {literal} -->\n<script>\n    (function(m,o,b,s,t,e,d){\n      m[t]=m[t]||{},e=o.createElement(b),d=o.getElementsByTagName(b)[0],\n        e.async=1,e.src=s,d.parentNode.insertBefore(e,d)\n    })(window,document,\"script\",\"https://cdn.mobsted.com/pwaless.js\",\"pwaless\");\n    pwaless.config = {\n      accountId: \"cedc9857\",\n      server: \"mobsted.com\",\n      projectId: 15\n    }\n</script>\n<!-- /Mobsted {/literal} -->\n\n\n\n<script type=\"text/javascript\" src=\"https://platform-api.sharethis.com/js/sharethis.js#property=65fb6e74fb0d800012110502&product=inline-share-buttons&source=platform\" async=\"async\"></script>",
     "google-analytics": "",
     "usedWebp": true,
     "cookiesAlert": false,
-    "global_footer_custom": "\n"
+    "global_footer_custom": "<script src=\"https://allinone.rushwidget.com/widget.js\" type=\"text/javascript\"></script>\n<script>\n    new RushWidget({\n        target: document.body,\n        props: {\n            hash: 'zmsopll3m7ea2671w8g5'\n        }\n    });\n</script>\n"
   },
   "pages": {
     "home.html": {
