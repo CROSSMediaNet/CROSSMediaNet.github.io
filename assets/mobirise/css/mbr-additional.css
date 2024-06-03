@@ -1225,6 +1225,31 @@ a {
 .cid-u4dBxHCpds .mbr-section-title {
   text-align: center;
 }
+.cid-ueFEtsE5HB {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background: linear-gradient(0deg, #e43f3f, #232323);
+}
+.cid-ueFEtsE5HB .news {
+  width: 160px;
+  background-color: #000000;
+}
+.cid-ueFEtsE5HB .news-scroll a {
+  text-decoration: none;
+}
+.cid-ueFEtsE5HB .dot {
+  height: 6px;
+  width: 6px;
+  margin-left: 3px;
+  margin-right: 3px;
+  margin-top: 2px !important;
+  background-color: #ff3366;
+  border-radius: 50%;
+  display: inline-block;
+}
+.cid-ueFEtsE5HB DIV {
+  color: #e43f3f;
+}
 .cid-u4VTWY6XIa {
   padding-top: 5rem;
   padding-bottom: 5rem;
