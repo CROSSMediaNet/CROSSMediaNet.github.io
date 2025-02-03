@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "OTTU Media",
-    "currentPage": "home.html",
+    "currentPage": "app-store.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -48,7 +48,7 @@
         "url": "https://fonts.googleapis.com/css?family=Jost:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i"
       }
     ],
-    "uniqCompNum": 467,
+    "uniqCompNum": 468,
     "versionPublish": "5.9.18",
     "imageResize": true,
     "screenshot": "screenshot.png",
@@ -1398,41 +1398,9 @@
           "_params": {}
         },
         {
-          "alias": false,
-          "_styles": {
-            "& when not (@fullScreen)": {
-              "padding-top": "(@paddingTop * 1rem)",
-              "padding-bottom": "(@paddingBottom * 1rem)"
-            },
-            "& when (@bg-type = \"image\")": {
-              "background-image": "url(@bg-value)"
-            },
-            "& when (@bg-type = \"color\")": {
-              "& when not (@gradientBg)": {
-                "background-color": "@bg-value"
-              },
-              "& when (@gradientBg)": {
-                "background-image": "linear-gradient(~\"@{gradientAngle}deg\", @gradientColor2 10%, @bg-value 100%) !important"
-              }
-            },
-            ".mbr-text, .mbr-section-btn": {
-              "color": "#ffffff"
-            }
-          },
-          "_name": "header18",
-          "_sourceTheme": "mobirise5",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"header18\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"8\" step=\"1\">\n        <select title=\"Align\" name=\"contentAlign\">\n            <option value>Left</option>\n            <option value=\"justify-content-center\" selected>Center</option>\n            <option value=\"justify-content-end\">Right</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubitle\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/the-new-ottu-media-logo-1080-made-with-postermywall-1920x1080.png\" selected parallax>\n            <input type=\"color\" title=\"Color\" value=\"#4479d9\">4479d9\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"text\" title=\"Fallback Image\" name=\"videoToImageOnMobile\" condition=\"overlay && bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Gradient Bg\" name=\"gradientBg\" checked condition=\"bg.type == 'color'\">\n        <input type=\"color\" title=\"Color 2\" name=\"gradientColor2\" value=\"#e43f3f\" condition=\"gradientBg && bg.type == 'color'\">\n        <input type=\"range\" inline name=\"gradientAngle\" title=\"Gradient Angle\" min=\"0\" max=\"360\" value=\"117\" step=\"1\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"align-center\" mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\" video-to-image-on-mobile=\"{{videoToImageOnMobile}}\">\n        <div class=\"row {{contentAlign}}\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <h1 class=\"mbr-section-title mbr-fonts-style mbr-white mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><b>OTTU Media App Store</b></h1>\n                <h2 class=\"mbr-section-subtitle mbr-fonts-style mbr-white mb-3\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-2\" mbr-if=\"showSubitle\"><b>\n                        Header Subtitle\n                    </b></h2>\n                <p class=\"mbr-text mbr-fonts-style mbr-white\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Our app store is where we distributed media content to our online audience in multiple media formats through various channels. Check out these apps to connect to our media outlets.<br>We are partnered with <a href=\"https://www.webvideocaster.com/home\" class=\"text-warning\" target=\"_blank\">Web Video Caster</a>.&nbsp;</p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\"><a class=\"btn btn-primary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Create\n                        Your Website!</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "t2FofpFBGM",
-          "_anchor": "header18-1v",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "_name": "slider02",
-          "_sourceTheme": "divem5",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"slider02 mbr-embla divem5\" group=\"Sliders & Galleries\" plugins=\"embla\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"checkbox\" title=\"Reverse\" name=\"reverseContent\" checked>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" name=\"showTitle\" title=\"Title\" checked>\n        <input type=\"checkbox\" name=\"showButtons\" title=\"Buttons\" checked>\n        <header>Carousel</header>\n        <input type=\"checkbox\" title=\"Autoplay\" name=\"autoplay\">\n        <input type=\"range\" title=\"Interval\" name=\"interval\" min=\"1\" max=\"10\" value=\"4\" step=\"1\" condition=\"autoplay\">\n        <input type=\"checkbox\" title=\"Loop\" name=\"loop\" checked>\n        <input type=\"checkbox\" title=\"Draggable\" name=\"draggable\" checked>\n        <input type=\"checkbox\" name=\"arrows\" title=\"Arrows\" checked>\n        <input type=\"checkbox\" name=\"arrowsMobile\" title=\"Mobile Arrows\" condition=\"arrows\" checked>\n        <input type=\"color\" title=\"Arrows Color\" value=\"#ffffff\" name=\"arrowsColor\" condition=\"arrows\" selected>\n        <header>Cards</header>\n        <input type=\"checkbox\" name=\"showCardTitle\" title=\"Title\" checked>\n        <input type=\"checkbox\" name=\"showCardSubtitle\" title=\"Subtitle\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax required>\n            <input type=\"image\" title=\"Image\" value=\"@ADDONS_PATH@/divem5/components/_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#520a0a\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#fafafa\" condition=\"overlay && bg.type == 'image'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.1\" condition=\"overlay && bg.type == 'image'\">\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\"></div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row\" mbr-class=\"{'flex-row-reverse' : reverseContent}\">\n            <div class=\"col-12 col-lg-6 card\">\n                <div class=\"embla\" data-loop=\"{{loop}}\" data-auto-play=\"{{autoplay}}\" data-auto-play-interval=\"{{interval}}\" data-draggable=\"{{draggable}}\" data-skip-snaps=\"true\" data-align=\"center\" data-contain-scroll=\"trimSnaps\">\n                    <div class=\"embla__viewport\">\n                        <div class=\"embla__container\">\n                            <div class=\"embla__slide slider-image item\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                                <div class=\"slide-content\">\n                                    <a href=\"#\">\n                                        </a><div class=\"item-wrapper\"><a href=\"#\">\n                                            </a><div class=\"item-img\"><a href=\"#\">\n                                                \n                                            </a><a href target=\"false\"></a><a href=\"https://channelstore.roku.com/details/0b5b16be5182204ba916edba34f69b20/projector\" target=\"false\"></a><a href=\"https://channelstore.roku.com/details/0b5b16be5182204ba916edba34f69b20/projector\" target=\"false\"><img src=\"@PROJECT_PATH@/assets/images/imageedit_1-4142189397-483x527.jpeg\" alt data-slide-to=\"0\" data-bs-slide-to=\"0\"></a></div>\n                                        </div>\n                                        <div class=\"item-content\">\n                                            <h5 class=\"item-subtitle mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".item-subtitle\" mbr-if=\"showCardSubtitle\">We are partnered with Web Video Caster. Click on the logo to connect to you Roku account.</h5>\n                                            <h6 class=\"item-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".item-title\" mbr-if=\"showCardTitle\"><b>OTTU Media on Roku</b></h6>\n                                        </div>\n                                    \n                                </div>\n                            </div>\n                            <div class=\"embla__slide slider-image item\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                                <div class=\"slide-content\">\n                                    <a href=\"#\">\n                                        </a><div class=\"item-wrapper\"><a href=\"#\">\n                                            </a><div class=\"item-img\"><a href=\"#\">\n                                                \n                                            </a><a href target=\"false\"></a><a href=\"https://www.amazon.com/Projector-LLC/dp/B09TG4ZDJ2/ref=sr_1_1?dib=eyJ2IjoiMSJ9.otAVN-aqRfaF4DQ5y-iL4E2CeywUKhBD0lMKGnlxTPPvSdtB0uh4ib5gKJq4Bjyj_u6XIjydGLU9PFKWNjZRRcMzPmpfqUz6ryhqMjMxkPQ.ESEtzkrRGWb1R5WKl2vo7sPpgMowI1qgoKffcCu6pUk&dib_tag=se&keywords=Projector&qid=1721190178&s=mobile-apps&sr=1-1\" target=\"_blank\"></a><a href=\"https://www.amazon.com/InstantBits-Inc-Video-Caster-Receiver/dp/B082RGM8MJ\" target=\"true\"><img src=\"@PROJECT_PATH@/assets/images/61w72ga2wnl-512x512.png\" alt data-slide-to=\"1\" data-bs-slide-to=\"1\"></a></div>\n                                        </div>\n                                        <div class=\"item-content\">\n                                            <h5 class=\"item-subtitle mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".item-subtitle\" mbr-if=\"showCardSubtitle\">We are partnered with Web Video Caster. Click on the logo to connect to you Amazon Fire account.</h5>\n                                            <h6 class=\"item-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".item-title\" mbr-if=\"showCardTitle\"><b>OTTU Media on Amazon Fire</b></h6>\n                                        </div>\n                                    \n                                </div>\n                            </div>\n                            <div class=\"embla__slide slider-image item\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                                <div class=\"slide-content\">\n                                    <a href=\"#\">\n                                        </a><div class=\"item-wrapper\"><a href=\"#\">\n                                            </a><div class=\"item-img\"><a href=\"#\">\n                                                \n                                            </a><a href=\"https://cedc9857.mobsted.com/pwa/?appid=15\" target=\"false\"></a><a href=\"https://apps.apple.com/us/app/web-video-caster-receiver/id1488642644\" target=\"true\"><img src=\"@PROJECT_PATH@/assets/images/download-icon-logoicon-1320085900339857615-512-512x512.png\" alt data-slide-to=\"2\" data-bs-slide-to=\"2\"></a></div>\n                                        </div>\n                                        <div class=\"item-content\">\n                                            <h5 class=\"item-subtitle mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".item-subtitle\" mbr-if=\"showCardSubtitle\">Click on the logo to install OTTU Media on any Apple device.</h5>\n                                            <h6 class=\"item-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".item-title\" mbr-if=\"showCardTitle\"><b>OTTU Media on Apple</b></h6>\n                                        </div>\n                                    \n                                </div>\n                            </div><div class=\"embla__slide slider-image item\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                                <div class=\"slide-content\">\n                                    <a href=\"#\">\n                                        </a><div class=\"item-wrapper\"><a href=\"#\">\n                                            </a><div class=\"item-img\"><a href=\"#\">\n                                                \n                                            </a><a href=\"https://cedc9857.mobsted.com/pwa/?appid=15\" target=\"false\"><img src=\"@PROJECT_PATH@/assets/images/android-mascot-wallpaper-preview-728x455.jpeg\" alt data-slide-to=\"3\" data-bs-slide-to=\"3\"></a></div>\n                                        </div>\n                                        <div class=\"item-content\">\n                                            <h5 class=\"item-subtitle mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".item-subtitle\" mbr-if=\"showCardSubtitle\">Click on the logo to install OTTU Media on any Android device.</h5>\n                                            <h6 class=\"item-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".item-title\" mbr-if=\"showCardTitle\"><b>OTTU Media on Android</b></h6>\n                                        </div>\n                                    \n                                </div>\n                            </div><div class=\"embla__slide slider-image item\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                                <div class=\"slide-content\">\n                                    <a href=\"#\">\n                                        </a><div class=\"item-wrapper\"><a href=\"#\">\n                                            </a><div class=\"item-img\"><a href=\"#\">\n                                                \n                                            </a><a href=\"https://cedc9857.mobsted.com/pwa/?appid=15\" target=\"false\"><img src=\"@PROJECT_PATH@/assets/images/microsoft-windows-logo.wine-838x559.png\" alt data-slide-to=\"4\" data-bs-slide-to=\"4\"></a></div>\n                                        </div>\n                                        <div class=\"item-content\">\n                                            <h5 class=\"item-subtitle mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".item-subtitle\" mbr-if=\"showCardSubtitle\">Click on the logo to install OTTU Media on any Windows device.</h5>\n                                            <h6 class=\"item-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".item-title\" mbr-if=\"showCardTitle\"><b>OTTU Media on Windows</b></h6>\n                                        </div>\n                                    \n                                </div>\n                            </div><div class=\"embla__slide slider-image item\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                                <div class=\"slide-content\">\n                                    <a href=\"#\">\n                                        </a><div class=\"item-wrapper\"><a href=\"#\">\n                                            </a><div class=\"item-img\"><a href=\"#\">\n                                                \n                                            </a><a href=\"https://cedc9857.mobsted.com/pwa/?appid=15\" target=\"false\"></a><a href=\"https://www.samsung.com/us/tvs/smart-tv/samsung-tv-plus-and-smart-hub/\" target=\"true\"><img src=\"@PROJECT_PATH@/assets/images/samsung-225x225.png\" alt data-slide-to=\"5\" data-bs-slide-to=\"5\"></a></div>\n                                        </div>\n                                        <div class=\"item-content\">\n                                            <h5 class=\"item-subtitle mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".item-subtitle\" mbr-if=\"showCardSubtitle\">Click on the logo to install OTTU Media on any Windows device.</h5>\n                                            <h6 class=\"item-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".item-title\" mbr-if=\"showCardTitle\"><b>OTTU Media on Samsung TV</b></h6>\n                                        </div>\n                                    \n                                </div>\n                            </div><div class=\"embla__slide slider-image item\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                                <div class=\"slide-content\">\n                                    <a href=\"#\">\n                                        </a><div class=\"item-wrapper\"><a href=\"#\">\n                                            </a><div class=\"item-img\"><a href=\"#\">\n                                                \n                                            </a><a href=\"https://cedc9857.mobsted.com/pwa/?appid=15\" target=\"false\"></a><a href=\"https://us.lgappstv.com/main/tvapp/detail?appId=958434\" target=\"true\"><img src=\"@PROJECT_PATH@/assets/images/lg-225x225.png\" alt data-slide-to=\"6\" data-bs-slide-to=\"6\"></a></div>\n                                        </div>\n                                        <div class=\"item-content\">\n                                            <h5 class=\"item-subtitle mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".item-subtitle\" mbr-if=\"showCardSubtitle\">Click on the logo to install OTTU Media on any Windows device.</h5>\n                                            <h6 class=\"item-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".item-title\" mbr-if=\"showCardTitle\"><b>OTTU Media on LG TV</b></h6>\n                                        </div>\n                                    \n                                </div>\n                            </div><div class=\"embla__slide slider-image item\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                                <div class=\"slide-content\">\n                                    <a href=\"#\">\n                                        </a><div class=\"item-wrapper\"><a href=\"#\">\n                                            </a><div class=\"item-img\"><a href=\"#\">\n                                                \n                                            </a><a href=\"https://cedc9857.mobsted.com/pwa/?appid=15\" target=\"false\"></a><a href=\"http://foxxum.webvideocaster.com/\" target=\"true\"><img src=\"@PROJECT_PATH@/assets/images/foxxum-225x127.jpg\" alt data-slide-to=\"7\" data-bs-slide-to=\"7\"></a></div>\n                                        </div>\n                                        <div class=\"item-content\">\n                                            <h5 class=\"item-subtitle mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".item-subtitle\" mbr-if=\"showCardSubtitle\">Click on the logo to install OTTU Media on any Windows device.</h5>\n                                            <h6 class=\"item-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".item-title\" mbr-if=\"showCardTitle\"><b>OTTU Media on Foxxum Platform</b></h6>\n                                        </div>\n                                    \n                                </div>\n                            </div><div class=\"embla__slide slider-image item\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                                <div class=\"slide-content\">\n                                    <a href=\"#\">\n                                        </a><div class=\"item-wrapper\"><a href=\"#\">\n                                            </a><div class=\"item-img\"><a href=\"#\">\n                                                \n                                            </a><a href=\"https://cedc9857.mobsted.com/pwa/?appid=15\" target=\"false\"></a><a href=\"https://vewd.webvideocaster.com/\" target=\"true\"><img src=\"@PROJECT_PATH@/assets/images/vewd-225x225.png\" alt data-slide-to=\"8\" data-bs-slide-to=\"8\"></a></div>\n                                        </div>\n                                        <div class=\"item-content\">\n                                            <h5 class=\"item-subtitle mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".item-subtitle\" mbr-if=\"showCardSubtitle\">Click on the logo to install OTTU Media on any Windows device.</h5>\n                                            <h6 class=\"item-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".item-title\" mbr-if=\"showCardTitle\"><b>OTTU Media on VEWD TV App</b></h6>\n                                        </div>\n                                    \n                                </div>\n                            </div><div class=\"embla__slide slider-image item\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                                <div class=\"slide-content\">\n                                    <a href=\"#\">\n                                        </a><div class=\"item-wrapper\"><a href=\"#\">\n                                            </a><div class=\"item-img\"><a href=\"#\">\n                                                \n                                            </a><a href=\"https://cedc9857.mobsted.com/pwa/?appid=15\" target=\"false\"></a><a href=\"https://vidaa.webvideocaster.com/\" target=\"true\"><img src=\"@PROJECT_PATH@/assets/images/vidaa-225x185.png\" alt data-slide-to=\"9\" data-bs-slide-to=\"9\"></a></div>\n                                        </div>\n                                        <div class=\"item-content\">\n                                            <h5 class=\"item-subtitle mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".item-subtitle\" mbr-if=\"showCardSubtitle\">Click on the logo to install OTTU Media on any Windows device.</h5>\n                                            <h6 class=\"item-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".item-title\" mbr-if=\"showCardTitle\"><b>OTTU Media on Vidaa Platform</b></h6>\n                                        </div>\n                                    \n                                </div>\n                            </div><div class=\"embla__slide slider-image item\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                                <div class=\"slide-content\">\n                                    <a href=\"#\">\n                                        </a><div class=\"item-wrapper\"><a href=\"#\">\n                                            </a><div class=\"item-img\"><a href=\"#\">\n                                                \n                                            </a><a href=\"https://cedc9857.mobsted.com/pwa/?appid=15\" target=\"false\"></a><a href=\"https://www.cast2tv.io/\" target=\"true\"></a><a href=\"https://www.cast2tv.io/\" target=\"false\"><img src=\"@PROJECT_PATH@/assets/images/web%20browser%20receivers-180x194.jpeg\" alt data-slide-to=\"10\" data-bs-slide-to=\"10\"></a></div>\n                                        </div>\n                                        <div class=\"item-content\">\n                                            <h5 class=\"item-subtitle mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".item-subtitle\" mbr-if=\"showCardSubtitle\">Click on the logo to install OTTU Media on any Windows device.</h5>\n                                            <h6 class=\"item-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".item-title\" mbr-if=\"showCardTitle\"><b>OTTU Media on any Device with a web browser (Playstation 4, etc.)</b></h6>\n                                        </div>\n                                    \n                                </div>\n                            </div>\n                        </div>\n                    </div>\n                    <button class=\"embla__button embla__button--prev\">\n                        <span class=\"mbr-iconfont mobi-mbri-left mobi-mbri visually-hidden\" aria-hidden=\"true\"></span>\n                        <span class=\"mbr-prev\">PREV</span>\n                    </button>\n                    <button class=\"embla__button embla__button--next\">\n                        <span class=\"mbr-iconfont mobi-mbri-right mobi-mbri visually-hidden\" aria-hidden=\"true\"></span>\n                        <span class=\"mbr-next\">NEXT</span>\n                    </button>\n                </div>\n            </div>\n            <div class=\"col-12 col-lg-6 card\">\n                <div class=\"title-wrapper\">\n                    <img src=\"@PROJECT_PATH@/assets/images/the%20new%20ottu%20media%20logo-900x900.jpg\" alt>\n                    <div class=\"title-wrap\">\n                        <h2 class=\"mbr-section-title mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title, .mbr-section-btn\"><b>Want to broadcast on these platforms?</b></h2>\n                        <div mbr-buttons mbr-theme-style=\"display-5\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-secondary\" href=\"vbs.html\" data-app-placeholder=\"Type Text\">CLICK HERE</a></div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_name": "slider01",
+          "_sourceTheme": "complexm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"slider1 mbr-embla\" group=\"Sliders & Galleries\" plugins=\"embla\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"10\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" name=\"showTitle\" title=\"Title\" checked>\n        <input type=\"checkbox\" name=\"showSubtitle\" title=\"Subtitle\" checked>\n        <header>Carousel</header>\n        <input type=\"checkbox\" title=\"Autoplay\" name=\"autoplay\">\n        <input type=\"range\" title=\"Interval\" name=\"interval\" min=\"1\" max=\"10\" value=\"5\" step=\"1\" condition=\"autoplay\">\n        <input type=\"checkbox\" title=\"Loop\" name=\"loop\">\n        <input type=\"checkbox\" title=\"Draggable\" name=\"draggable\" checked>\n        <input type=\"checkbox\" name=\"arrows\" title=\"Arrows\" checked>\n        <input type=\"checkbox\" name=\"arrowsMobile\" title=\"Mobile Arrows\" condition=\"arrows\" checked>\n        <header>Cards</header>\n        <input type=\"range\" name=\"gap\" title=\"Gap\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" required>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/the%20new%20ottu%20media%20logo%20(roku)%20-%20made%20with%20postermywall-900x900.png\" selected>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type == 'image'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type == 'image'\">\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\"></div>\n    <div class=\"position-relative text-center\">\n        <div class=\"mbr-section-head\" mbr-if=\"showTitle || showSubtitle\" mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n            <h4 class=\"mbr-section-title mbr-fonts-style align-left mb-0\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\"><b>APP STORE</b></h4>\n            <h5 class=\"mbr-section-subtitle mbr-fonts-style align-left mb-0 mt-2\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">OTTU Media and its connection to <a href=\"https://www.webvideocaster.com/home\" class=\"text-warning\" target=\"_blank\">Web Video Caster®</a>. <a href=\"https://www.webvideocaster.com/home\" class=\"text-warning\" target=\"_blank\">Web Video Caster®</a> is a popular application that allows users to stream radio, online videos, movies, TV shows and live broadcasting from OTTU Media directly to various devices, including Smart TVs and desktop browsers. This can enhance the viewing experience, making it easier to access content on larger screens or through more robust interfaces.</h5>\n        </div>\n        <div class=\"embla mt-4\" data-loop=\"{{loop}}\" data-auto-play=\"{{autoplay}}\" data-auto-play-interval=\"{{interval}}\" data-draggable=\"{{draggable}}\" data-skip-snaps=\"true\" data-align=\"center\" data-contain-scroll=\"trimSnaps\">\n            <div class=\"embla__viewport\" mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n                <div class=\"embla__container\">\n                    <div class=\"embla__slide slider-image item active\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    \n                                <a href=\"https://channelstore.roku.com/details/a2fb1a1dd79a40bbe3b66374abd70b2e:6056bfdf5a4dfd37e78d400372eccf46/web-video-caster-receiver\" target=\"true\"></a><a href=\"https://channelstore.roku.com/details/a2fb1a1dd79a40bbe3b66374abd70b2e:6056bfdf5a4dfd37e78d400372eccf46/web-video-caster-receiver\" target=\"false\"><img src=\"@PROJECT_PATH@/assets/images/imageedit_1-4142189397-483x527.jpeg\" alt></a></div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-5\">Roku</h2>\n                                    <a href=\"https://channelstore.roku.com/details/a2fb1a1dd79a40bbe3b66374abd70b2e:6056bfdf5a4dfd37e78d400372eccf46/web-video-caster-receiver\" target=\"_blank\"><span mbr-icon class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\" style=\"color: rgb(160, 0, 0); fill: rgb(160, 0, 0);\"></span></a>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div>\n                    <div class=\"embla__slide slider-image item\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    \n                                <a href=\"https://www.amazon.com/InstantBits-Inc-Video-Caster-Receiver/dp/B082RGM8MJ\" target=\"true\"><img src=\"@PROJECT_PATH@/assets/images/61w72ga2wnl-512x512.png\" alt></a></div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-5\">Amazon Fire</h2>\n                                    <a href=\"https://www.amazon.com/InstantBits-Inc-Video-Caster-Receiver/dp/B082RGM8MJ\" target=\"_blank\"><span mbr-icon class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\" style=\"color: rgb(160, 0, 0); fill: rgb(160, 0, 0);\"></span></a>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div>\n                    <div class=\"embla__slide slider-image item\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    \n                                <a href=\"https://apps.apple.com/us/app/web-video-caster-receiver/id1488642644\" target=\"true\"><img src=\"@PROJECT_PATH@/assets/images/download-icon-logoicon-1320085900339857615-512-512x512.png\" alt data-slide-to=\"2\" data-bs-slide-to=\"3\"></a></div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-5\">Apple iOS</h2>\n                                    <a href=\"https://apps.apple.com/us/app/web-video-caster-receiver/id1488642644\" target=\"_blank\"><span mbr-icon class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\" style=\"color: rgb(160, 0, 0); fill: rgb(160, 0, 0);\"></span></a>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div>\n                    <div class=\"embla__slide slider-image item\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    \n                                <a href=\"https://cedc9857.mobsted.com/pwa/?appid=15&screenid=168&objid=3035\" target=\"false\"><img src=\"@PROJECT_PATH@/assets/images/android-mascot-wallpaper-preview-728x455.jpeg\" alt data-slide-to=\"3\" data-bs-slide-to=\"4\"></a></div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-5\">Android/Google</h2>\n                                    <a href=\"https://cedc9857.mobsted.com/pwa/?appid=15&screenid=168&objid=3035\" target=\"_blank\"><span mbr-icon class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\" style=\"color: rgb(160, 0, 0); fill: rgb(160, 0, 0);\"></span></a>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div><div class=\"embla__slide slider-image item\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    \n                                <a href=\"https://www.samsung.com/us/tvs/smart-tv/samsung-tv-plus-and-smart-hub/\" target=\"true\"><img src=\"@PROJECT_PATH@/assets/images/samsung-225x225.png\" alt data-slide-to=\"4\" data-bs-slide-to=\"5\"></a></div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-5\">Samsung TVs with Tizen OS</h2>\n                                    <a href=\"https://www.samsung.com/us/tvs/smart-tv/samsung-tv-plus-and-smart-hub/\" target=\"_blank\"><span mbr-icon class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\" style=\"color: rgb(160, 0, 0); fill: rgb(160, 0, 0);\"></span></a>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div><div class=\"embla__slide slider-image item\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    \n                                <a href=\"https://us.lgappstv.com/main/tvapp/detail?appId=958434\" target=\"true\"><img src=\"@PROJECT_PATH@/assets/images/lg-225x225.png\" alt data-slide-to=\"5\" data-bs-slide-to=\"6\"></a></div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-5\">LG TVs with WebOS and Netcast</h2>\n                                    <a href=\"https://us.lgappstv.com/main/tvapp/detail?appId=958434\" target=\"_blank\"><span mbr-icon class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\" style=\"color: rgb(160, 0, 0); fill: rgb(160, 0, 0);\"></span></a>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div><div class=\"embla__slide slider-image item\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    \n                                <a href=\"https://vewd.webvideocaster.com/\" target=\"true\"><img src=\"@PROJECT_PATH@/assets/images/vewd-225x225.png\" alt data-slide-to=\"6\" data-bs-slide-to=\"7\"></a></div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-5\">TVs with the VEWD App Store</h2>\n                                    <a href=\"https://vewd.webvideocaster.com/\" target=\"_blank\"><span mbr-icon class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\" style=\"color: rgb(160, 0, 0); fill: rgb(160, 0, 0);\"></span></a>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div><div class=\"embla__slide slider-image item\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    \n                                <a href=\"https://vidaa.webvideocaster.com/\" target=\"true\"><img src=\"@PROJECT_PATH@/assets/images/vidaa-225x185.png\" alt data-slide-to=\"7\" data-bs-slide-to=\"8\"></a></div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-5\">TVs running the Vidaa platform</h2>\n                                    <a href=\"https://vidaa.webvideocaster.com/\" target=\"_blank\"><span mbr-icon class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\" style=\"color: rgb(160, 0, 0); fill: rgb(160, 0, 0);\"></span></a>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div><div class=\"embla__slide slider-image item\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    \n                                <a href=\"https://foxxum.webvideocaster.com/\" target=\"true\"><img src=\"@PROJECT_PATH@/assets/images/foxxum-225x127.jpg\" alt data-slide-to=\"8\" data-bs-slide-to=\"8\"></a></div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-5\">TVs running the Foxxum platform</h2>\n                                    <a href=\"https://foxxum.webvideocaster.com/\" target=\"_blank\"><span mbr-icon class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\" style=\"color: rgb(160, 0, 0); fill: rgb(160, 0, 0);\"></span></a>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div><div class=\"embla__slide slider-image item\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    \n                                <a href=\"https://cedc9857.mobsted.com/pwa/?appid=15&screenid=168&objid=3035\" target=\"true\"><img src=\"@PROJECT_PATH@/assets/images/microsoft-windows-logo.wine-838x559.png\" alt data-slide-to=\"9\" data-bs-slide-to=\"9\"></a></div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-5\">Windows</h2>\n                                    <a href=\"https://cedc9857.mobsted.com/pwa/?appid=15&screenid=168&objid=3035\" target=\"_blank\"><span mbr-icon class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\" style=\"color: rgb(160, 0, 0); fill: rgb(160, 0, 0);\"></span></a>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div><div class=\"embla__slide slider-image item\" mbr-style=\"{'margin-left': gap + 'rem', 'margin-right': gap + 'rem'}\">\n                        <div class=\"slide-content\">\n                            <div class=\"item-wrapper\">\n                                <div class=\"item-img\">\n                                    \n                                <a href=\"https://www.cast2tv.io/\" target=\"true\"><img src=\"@PROJECT_PATH@/assets/images/web%20browser%20receivers-180x194.jpeg\" alt data-slide-to=\"10\" data-bs-slide-to=\"10\"></a></div>\n                            </div>\n                            <div class=\"item-content\">\n                                <div class=\"img-link\">\n                                    <h2 class=\"mbr-fonts-style m-0\" data-app-selector=\".img-link, .link-icon\" mbr-theme-style=\"display-5\">Web Browser Receiver for any gaming console</h2>\n                                    <a href=\"https://www.cast2tv.io/\" target=\"_blank\"><span mbr-icon class=\"mbr-iconfont link-icon mobi-mbri-right mobi-mbri\" style=\"color: rgb(160, 0, 0); fill: rgb(160, 0, 0);\"></span></a>\n                                </div>\n                            </div>\n\n                        </div>\n                    </div>\n\n\n                </div>\n            </div>\n            <button class=\"embla__button embla__button--prev\">\n                <span class=\"mobi-mbri mobi-mbri-arrow-prev mbr-iconfont\" aria-hidden=\"true\"></span>\n                <span class=\"sr-only visually-hidden visually-hidden\">Previous</span>\n            </button>\n            <button class=\"embla__button embla__button--next\">\n                <span class=\"mobi-mbri mobi-mbri-arrow-next mbr-iconfont\" aria-hidden=\"true\"></span>\n                <span class=\"sr-only visually-hidden visually-hidden\">Next</span>\n            </button>\n        </div>\n    </div>\n</section>",
           "_styles": {
             "padding-top": "(@paddingTop * 1rem)",
             "padding-bottom": "(@paddingBottom * 1rem)",
@@ -1448,48 +1416,36 @@
                 }
               }
             },
-            "& when (@fullWidth)": {
-              ".container-fluid": {
-                "padding": "0",
-                "@media (max-width: 992px)": {
-                  "padding": "0"
+            "img": {
+              "transition": "all 0.3s",
+              "height": "350px",
+              "width": "100%",
+              "object-fit": "cover"
+            },
+            ".slide-content": {
+              "width": "100%",
+              "&:hover": {
+                "img": {
+                  "transform": "scale(1.15) rotate(-5deg)"
                 }
-              }
-            },
-            "@media (max-width: 992px)": {
-              ".container": {
-                "padding": "0 25px"
-              }
-            },
-            ".row": {
-              "margin": "0",
-              ".card": {
-                "padding": "0"
-              }
-            },
-            ".title-wrapper": {
-              "display": "flex",
-              "align-items": "flex-end",
+              },
               "position": "relative",
-              "padding": "72px 72px 120px",
               "height": "100%",
-              "@media (max-width: 768px)": {
-                "padding": "45px 25px"
-              },
-              "img": {
-                "position": "absolute",
-                "top": "0",
-                "left": "0",
-                "width": "100%",
-                "height": "100%",
-                "object-fit": "cover"
-              },
-              ".title-wrap": {
-                "position": "relative",
-                "z-index": "1",
-                ".mbr-section-title": {
-                  "margin-bottom": "50px"
-                }
+              "display": "flex",
+              "overflow": "hidden",
+              "flex-flow": "column nowrap"
+            },
+            ".img-link": {
+              "display": "flex",
+              "justify-content": "space-between",
+              "align-items": "center",
+              "transition": "all 0.3s",
+              "padding": "1rem 0rem",
+              "color": "#000000",
+              "width": "100%",
+              "span": {
+                "font-size": "2rem",
+                "color": "currentColor"
               }
             },
             ".item:focus, span:focus": {
@@ -1498,77 +1454,61 @@
             ".item-wrapper": {
               "position": "relative"
             },
+            ".mbr-section-btn": {
+              "margin-top": "auto !important"
+            },
+            ".mbr-section-title": {
+              "color": "#ffffff"
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "text-align": "left"
+            },
+            ".item-title": {
+              "text-align": "left"
+            },
+            ".item-subtitle": {
+              "text-align": "left"
+            },
             ".embla__slide": {
               "display": "flex",
               "justify-content": "center",
               "position": "relative",
-              "min-width": "100%",
-              "max-width": "100%",
-              "@media (max-width: 767px)": {
-                "min-width": "100%",
-                "max-width": "100%"
-              },
-              ".slide-content": {
-                "padding": "100px 72px",
-                "width": "100%",
-                "border-radius": "0 !important",
-                "@media (max-width: 768px)": {
-                  "padding": "45px 25px"
-                },
-                "a": {
-                  ".item-wrapper": {
-                    "padding": "0 45px",
-                    "@media (max-width: 768px)": {
-                      "padding": "0"
-                    },
-                    ".item-img": {
-                      "margin-bottom": "50px",
-                      "@media (max-width: 768px)": {
-                        "margin-bottom": "25px"
-                      },
-                      "img": {
-                        "height": "520px",
-                        "object-fit": "cover",
-                        "@media (max-width: 768px)": {
-                          "height": "350px"
-                        }
-                      }
-                    }
-                  },
-                  ".item-content": {
-                    "padding": "0 75px",
-                    "@media (max-width: 768px)": {
-                      "padding": "0"
-                    },
-                    ".item-subtitle": {
-                      "margin-bottom": "10px"
-                    },
-                    ".item-title": {
-                      "margin-bottom": "0"
-                    }
-                  }
-                }
+              "min-width": "490px",
+              "max-width": "490px",
+              "@media (max-width: 768px)": {
+                "min-width": "70%",
+                "max-width": "initial",
+                "margin-left": "1rem !important",
+                "margin-right": "1rem !important"
               }
             },
             ".embla__button--next, .embla__button--prev": {
               "display": "flex"
             },
+            ".embla__button--prev": {
+              "span": {
+                "padding-right": "7px"
+              }
+            },
+            ".embla__button--next": {
+              "span": {
+                "padding-left": "3px"
+              }
+            },
             ".embla__button": {
-              "bottom": "8rem",
-              "width": "72px",
-              "height": "20px",
+              "top": "50%",
+              "width": "60px",
+              "height": "60px",
               "margin-top": "-1.5rem",
-              "font-size": "18px",
-              "background-color": "transparent !important",
-              "color": "@arrowsColor !important",
-              "border": "none",
-              "border-radius": "0",
+              "font-size": "40px",
+              "color": "black",
+              "border": "2px solid #fff",
+              "border-radius": "50%",
               "transition": "all 0.3s",
               "position": "absolute",
               "display": "flex",
               "justify-content": "center",
               "align-items": "center",
-              "opacity": "1 !important",
               "& when not (@arrows)": {
                 "display": "none"
               },
@@ -1581,29 +1521,21 @@
                 "cursor": "default",
                 "display": "none"
               },
-              "&:hover": {
-                "opacity": ".7 !important"
-              },
               "&.embla__button--prev": {
-                "left": "72px",
-                ".mbr-prev": {
-                  "font-family": "\"Archivo\", sans-serif"
-                },
-                "@media (max-width: 768px)": {
-                  "left": "25px"
-                }
+                "left": "0",
+                "margin-left": "2.5rem"
               },
               "&.embla__button--next": {
-                "right": "72px",
-                ".mbr-next": {
-                  "font-family": "\"Archivo\", sans-serif"
-                },
-                "@media (max-width: 768px)": {
-                  "right": "25px"
-                }
+                "right": "0",
+                "margin-right": "2.5rem"
               },
-              "@media (max-width: 768px)": {
-                "bottom": "1rem"
+              "@media (max-width: 1400px)": {
+                "background-color": "rgba(255, 255, 255, 0.5)",
+                "border-color": "black"
+              },
+              "@media (max-width: 767px)": {
+                "top": "auto",
+                "margin-top": "-0.5rem"
               }
             },
             ".embla": {
@@ -1612,8 +1544,7 @@
             },
             ".embla__viewport": {
               "overflow": "hidden",
-              "width": "100%",
-              "margin-right": "1rem"
+              "width": "100%"
             },
             ".embla__viewport.is-draggable": {
               "cursor": "grab"
@@ -1628,23 +1559,15 @@
               "-khtml-user-select": "none",
               "-webkit-tap-highlight-color": "transparent"
             },
-            ".mbr-section-title": {
+            ".img-link, .link-icon": {
               "color": "#ffffff"
             },
-            ".item-subtitle": {
-              "color": "#ffffff",
-              "text-align": "center"
-            },
-            ".item-title": {
-              "color": "#ffffff",
-              "text-align": "center"
-            },
-            ".mbr-section-title, .mbr-section-btn": {
-              "color": "#fac420"
+            ".mbr-section-subtitle": {
+              "color": "#ffffff"
             }
           },
-          "_cid": "uiIdQXbpGP",
-          "_anchor": "slider02-ca",
+          "_cid": "uBjddq32IO",
+          "_anchor": "slider01-cz",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
