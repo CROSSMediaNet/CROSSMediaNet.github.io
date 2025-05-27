@@ -90,7 +90,8 @@
     "witsec-jquery": false,
     "witsec-search": false,
     "witsec-white-label": false,
-    "witsec-mailform": false
+    "witsec-mailform": false,
+    "publishEditFolder": true
   },
   "pages": {
     "home.html": {
