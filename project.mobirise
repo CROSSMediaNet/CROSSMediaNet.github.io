@@ -91,7 +91,8 @@
     "witsec-search": false,
     "witsec-white-label": false,
     "witsec-mailform": false,
-    "publishEditFolder": true
+    "publishEditFolder": true,
+    "multilingual": true
   },
   "pages": {
     "home.html": {
